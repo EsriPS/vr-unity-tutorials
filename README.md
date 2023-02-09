@@ -13,7 +13,7 @@ README GUIDELINES END -->
 
 <div align="center">
   <a href="#">
-    <img src="https://github.com/EsriPS/innersource-template/blob/main/documentation/github-banner.png" alt="Project Title" title="Project Title" />
+    <img src="./documentation/github-banner.png" alt="Project Title" title="Project Title" />
   </a>
 </div>
 
