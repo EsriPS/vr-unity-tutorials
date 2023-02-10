@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.esri.arcgis-maps-sdk": "file:C:/Users/lil11535/Downloads/arcgis-maps-sdk-unity-1.0.0.tgz",
+    "com.esri.arcgis-maps-sdk": "file:C:/Users/jeff8977/Documents/MISC/UnitySDK/arcgis-maps-sdk-unity-1.1.0.tgz",
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.18",
@@ -12,6 +12,8 @@
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
+    "com.unity.xr.interaction.toolkit": "2.2.0",
+    "com.unity.xr.openxr": "1.6.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
