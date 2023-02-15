@@ -7,6 +7,7 @@ There are a few changes to this Scene that are worth reviewing before we dive in
 * Management - This Game Object has a Script Component (StateManager.cs) attached. Take a moment to review this script. 
 * ArcGISMap - We have a new Game Object that is acting as a "parent" to the XR rig set up in the previous Scene.
 * RightHand Contoller (XR Ray Interactor) - Force Grab was turned off to give us a different experience when grabbing a building.
+* Elevation Controller - New Input Action to handle moving up/down using the right controller.
 
 ## Walkthrough
 

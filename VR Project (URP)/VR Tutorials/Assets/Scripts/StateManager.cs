@@ -8,6 +8,8 @@ public class StateManager : MonoBehaviour
 {
     public static StateManager Instance;
 
+    public Unity.XR.CoreUtils.XROrigin PlayerXRO;
+
     private ActionBasedContinuousTurnProvider _cTurnProvider;
 
     private void Start()

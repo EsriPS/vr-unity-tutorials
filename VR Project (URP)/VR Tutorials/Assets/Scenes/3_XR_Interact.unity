@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a6c6d9ace21de41825743f066071b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerXRO: {fileID: 1938531780}
 --- !u!4 &125795032
 Transform:
   m_ObjectHideFlags: 0
@@ -2396,6 +2397,7 @@ GameObject:
   - component: {fileID: 616755310}
   - component: {fileID: 616755309}
   - component: {fileID: 616755308}
+  - component: {fileID: 616755314}
   m_Layer: 0
   m_Name: Locomotion System
   m_TagString: Untagged
@@ -2569,6 +2571,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &616755314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616755307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861b6305ebff5d04f970ac5b0dd2caef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 2
+  _elevation: {fileID: 4373736833513982773, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1019334826
 GameObject:
   m_ObjectHideFlags: 0
