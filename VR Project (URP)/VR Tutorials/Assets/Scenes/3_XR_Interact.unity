@@ -1456,15 +1456,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IsInitialized: 1
   m_LocalPosition:
-    x: -8116348.760904971
+    x: -8116348.7609049715
     y: -20.09000015258789
     z: 5060566.282219553
   m_LocalRotation:
     value:
       x: 0
-      y: 0.9440027
+      y: 0.94400275
       z: 0
-      w: -0.32993764
+      w: -0.32993767
   m_LocalScale:
     x: 1
     y: 1
@@ -3051,7 +3051,14 @@ MonoBehaviour:
     ShapeDimensions:
       x: 0
       y: 0
-  layers: []
+  layers:
+  - Name: Buildings
+    Type: 1
+    Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
+    Opacity: 1
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
   originPosition:
     x: -72.9108982
     y: 41.3260946
