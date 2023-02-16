@@ -12,7 +12,7 @@
 /[Uu]serSettings/
 
 # Our Building Models are Large
-/Assets/Resources/Data/*.fbx
+/Assets/Resources/Models/*.fbx
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
