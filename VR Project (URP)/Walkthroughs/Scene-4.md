@@ -12,6 +12,20 @@
 ## Structure
 - CustomButton
    - Back vs front panels - satisfying to take advantage of 3D ui even for flat design, skeumorphism
-   - Back has no components
-   - Front has HLayoutGroup for icon and text, needs to be a raycast target
-   - Parent has Simple Interactable / CustomButton script to hydrate icon, text and animate front plate, + XR Interactable hooked up to those functions
+   - Text
+      - Overflow: overflow
+      - Wrap: disabled - we want the button to grow horizontally instead of vertically, this is just personal preference and depends on how wide the total UI is
+      - ContentSizeFitter: this is somewhat of a bad practice and you'll see the warning, but we need to set it to Preferred Size or the bounding box won't resize to fit the overflow text
+      - It's ok because we aren't using the HLGs to control sizing of child elements, so no undefined fighting behavior
+   - Backplate 
+      - ignores auto layout and uses rect transform stretch
+   - Front plate
+      - needs a content size fitter also because of the text
+      - Layout Group
+      - Raycast target
+   - Prefab parent
+      - Size Fitter
+      - Layout Group, only contains one element but we need it for the size fitter to calculate desired min size based on the size of the child elements
+      - Layout Element, to lock the height in
+      - XR Interactable hooks into CustomButton
+      - CustomButton script, used to animate front plane position + color changes.
