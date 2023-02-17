@@ -1,6 +1,9 @@
 # Adding a World-space Player Menu
 TODO:
 - Review CustomButton and CameraFollower code
+- Solution for box collider layers conflicting with building
+- Connect StateManager functionality to buttons in MinimalMenu
+- Add links, screenshots to walkthrough
 
 ## Resources
 - `UI/Fonts` for SDFs of some open source fonts - TODO: find tutorial link
@@ -36,6 +39,7 @@ TODO:
 ## Steps
 1. Add `MinimalMenu` prefab to the Hierarchy in Scene 4
 2. Change Render Mode on Canvas Component to World Space + connect the ArcGISCamera
-3. RectTransform values will be huge- change pos to (0, -0.6, 0.5) and rot to (12,180,0)
+3. RectTransform values will be huge- change pos to (0, -0.6, 0.5) and rot to (12,180,0) and scale to (0.002, 0.002, 1)
 4. Add `TrackedDeviceGraphicRaycaster` and `CameraFollower` components
 5. On CameraFollower add input actions: XRI LH Locomotion/Move and XRI RightHand Locomotion/Turn, and camera transform
+6. Troubleshooting step: why isn't it facing the right direction? Solution: go to the top ModifiedPanel and change its rotation to -180.
