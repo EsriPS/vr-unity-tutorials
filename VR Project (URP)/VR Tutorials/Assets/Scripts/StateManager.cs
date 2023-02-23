@@ -4,7 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-
+using Newtonsoft.Json.Linq;
+using TMPro;
+using Esri.ArcGISMapsSDK.Utils.GeoCoord;
 
 public class StateManager : MonoBehaviour
 {
@@ -20,6 +22,7 @@ public class StateManager : MonoBehaviour
     [SerializeField] private GameObject _treePrefab;
     private GameObject _fsContainer;
 
+    private GameObject _agsMap;
     private ArcGISLocationComponent _playerLocation;
     private ActionBasedContinuousTurnProvider _cTurnProvider;
 
@@ -31,6 +34,13 @@ public class StateManager : MonoBehaviour
         // Get Access to the Turn Provider to help with FBX manipluation
         var lsGo = GameObject.Find("Locomotion System");
         _cTurnProvider = lsGo.GetComponent<ActionBasedContinuousTurnProvider>();
+
+        // Find ArcGIS Map Game Object for Parenting Purposes
+        _agsMap = GameObject.Find("ArcGISMap");
+
+        // Get Reference to Feature Service Game Object
+        _fsContainer = new GameObject("Feature Services");
+        _fsContainer.transform.SetParent(_agsMap.transform);
 
         // Begin Loading Art POIs
         FeatureService artService = new FeatureService(_artServiceURL);
@@ -65,6 +75,19 @@ public class StateManager : MonoBehaviour
     public void SetPlayerLocation(float lon, float lat, float alt)
     {
         _playerLocation.Position = new ArcGISPoint(lon, lat, alt, new ArcGISSpatialReference(4326));
+    }
+
+    public GameObject CreateMarker(string name, float lat, float lon, float alt, GameObject prefab)
+    {
+        GameObject locationMarker = Instantiate(prefab, _fsContainer.transform);
+
+        locationMarker.name = name;
+
+        ArcGISLocationComponent location = locationMarker.AddComponent<ArcGISLocationComponent>();
+        location.Position = new ArcGISPoint(lon, lat, alt, ArcGISSpatialReference.WGS84());
+        location.Rotation = new ArcGISRotation(0f, 90f, 0f);
+
+        return locationMarker;
     }
 
     IEnumerator CreateArtFeatures(string data, GameObject prefab)

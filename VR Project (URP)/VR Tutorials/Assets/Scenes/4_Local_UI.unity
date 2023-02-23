@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerXRO: {fileID: 1938531780}
-  _featureServiceURL: https://nhgis.newhavenct.gov/server/rest/services/Points_of_Interest/Public_Art/FeatureServer/0
-  _featurePrefab: {fileID: 8180703094090871080, guid: af831fd4d307d2149b2efb5f8f13d575, type: 3}
+  _artServiceURL: https://nhgis.newhavenct.gov/server/rest/services/Points_of_Interest/Public_Art/FeatureServer/0
+  _artPrefab: {fileID: 8180703094090871080, guid: af831fd4d307d2149b2efb5f8f13d575, type: 3}
   _treeServiceURL: 
   _treePrefab: {fileID: 0}
 --- !u!4 &125795032
@@ -1482,7 +1482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
@@ -2919,6 +2919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MinimalMenu-Complete
       objectReference: {fileID: 0}
+    - target: {fileID: 4171573014888905171, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5202799195952535406, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2945,22 +2949,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2146793911}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2146793911}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Select
       objectReference: {fileID: 0}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
@@ -2968,7 +2992,15 @@ PrefabInstance:
       value: Bookmark, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Bookmark, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5635645236301808608, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}

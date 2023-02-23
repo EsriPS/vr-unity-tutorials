@@ -10,7 +10,7 @@ public class Bookmark : MonoBehaviour
     [SerializeField] float _lat;
     [SerializeField] float _alt;
 
-    public void Select(ActivateEventArgs args)
+    public void Select()
     {
         StateManager.Instance.SetPlayerLocation(_lon, _lat, _alt);
     }
