@@ -153,6 +153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerXRO: {fileID: 1938531780}
+  _featureServiceURL: https://nhgis.newhavenct.gov/server/rest/services/Points_of_Interest/Public_Art/FeatureServer/0
+  _featurePrefab: {fileID: 8180703094090871080, guid: af831fd4d307d2149b2efb5f8f13d575, type: 3}
+  _treeServiceURL: 
+  _treePrefab: {fileID: 0}
 --- !u!4 &125795032
 Transform:
   m_ObjectHideFlags: 0
@@ -2939,6 +2943,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2146793911}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Select
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Bookmark, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362811519337241734, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5635645236301808608, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_Size.z
       value: 0.1
@@ -3265,3 +3297,23 @@ MonoBehaviour:
   Camera_Min_Delta_Rot: 0.1
   UI_Offset_Forward: 2
   UI_Offset_Down: 1
+--- !u!1 &2146793910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3294689287353379222, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
+  m_PrefabInstance: {fileID: 2146793905}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2146793911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146793910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed33dc4f5bfca44e862e14d5b82b54a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _lon: -72.9109
+  _lat: 41.326096
+  _alt: 10
