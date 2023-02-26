@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 using TMPro;
 using Esri.ArcGISMapsSDK.Utils.GeoCoord;
 
+
 public class StateManager : MonoBehaviour
 {
     public static StateManager Instance;
@@ -25,6 +26,9 @@ public class StateManager : MonoBehaviour
     private GameObject _agsMap;
     private ArcGISLocationComponent _playerLocation;
     private ActionBasedContinuousTurnProvider _cTurnProvider;
+
+    private Dictionary<string, List<GameObject>> _scenarios = new Dictionary<string, List<GameObject>>();
+
 
     private void Start()
     {
@@ -59,6 +63,8 @@ public class StateManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    #region UI Methods
+
     public void HandleGrabEnter(SelectEnterEventArgs args)
     {
         _cTurnProvider.enabled = false;
@@ -72,11 +78,30 @@ public class StateManager : MonoBehaviour
         rb.isKinematic = false;
     }
 
+    public void RegisterScenario(string name, List<GameObject> elements)
+    {
+        _scenarios.Add(name, elements);
+    }
+
+    public void ToggleScenario(string name)
+    {
+        foreach (var scenario in _scenarios)
+        {
+            foreach (GameObject obj in scenario.Value)
+            {
+                obj.SetActive(scenario.Key == name);
+            }
+        }
+    }
+
     public void SetPlayerLocation(float lon, float lat, float alt)
     {
         _playerLocation.Position = new ArcGISPoint(lon, lat, alt, new ArcGISSpatialReference(4326));
     }
 
+    #endregion
+
+    #region Feature Service Methods
     public GameObject CreateMarker(string name, float lat, float lon, float alt, GameObject prefab)
     {
         GameObject locationMarker = Instantiate(prefab, _fsContainer.transform);
@@ -114,4 +139,6 @@ public class StateManager : MonoBehaviour
             yield return null;
         }
     }
+
+    #endregion
 }
