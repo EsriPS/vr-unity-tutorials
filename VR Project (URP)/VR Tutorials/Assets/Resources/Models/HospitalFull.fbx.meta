@@ -3,7 +3,397 @@ guid: ec3622e4adbb0614b92671182daaad60
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Acoustic Ceiling Tile 24_ x 24_
+    second: {fileID: 2100000, guid: dc74ecd05e12f5640aeff1acb5b6ac72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum - Hansen - Powder Coated - Agate Gray - Gloss
+    second: {fileID: 2100000, guid: 40bef73c4cb1fde42bc0ff1538a43d98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Asphalt
+    second: {fileID: 2100000, guid: cc025afd4ea1c8c4ab31aaaa94d1b6c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BUMPER
+    second: {fileID: 2100000, guid: aaf9ee3a4ccc63c48a81e9d467305fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete - Cast In Situ
+    second: {fileID: 2100000, guid: cc85f2db02d46c44fac8058d41726606, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete - Cast in Situ Lightweight
+    second: {fileID: 2100000, guid: c4d18ed1994c7754aa84e4454e53251d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: a87fb2d0ade76a2479d66f539b85da38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default Wall
+    second: {fileID: 2100000, guid: e956d05fc672ad54b948092bcefcd738, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door - Frame - Metal
+    second: {fileID: 2100000, guid: a88f87eb6f87baa4cb2d65503f97951f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door - Frame - Wood
+    second: {fileID: 2100000, guid: de918d3945807e741aa84b4c3ff08cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door - Panel - Metal
+    second: {fileID: 2100000, guid: b8c3e13638bccba49a2673ca9e671c17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door - Panel - Wood
+    second: {fileID: 2100000, guid: c2fd98cd34a5ee44586d38720f7e2748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ElevatorArchitect Shaft Steel
+    second: {fileID: 2100000, guid: c93dd0d53ec79064ca888c50273edb17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Finishes - Interior - Porcelain
+    second: {fileID: 2100000, guid: 61386dd4d984c594e9f0f5e535961d03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic
+    second: {fileID: 2100000, guid: b33063279a40f54469c8bdddd3c3a4f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: fca9715e2037323488ba1e41d30df7c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glove Box 01
+    second: {fileID: 2100000, guid: 607f97051f5e648488c83af45f510e39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gypsum Wall Board
+    second: {fileID: 2100000, guid: d5d64dad3b9ee164ca6f7186c8afa354, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Helipad - White
+    second: {fileID: 2100000, guid: c6c7fa4473f928d40afc69d31f58f35f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Helipad -Gray
+    second: {fileID: 2100000, guid: 06eb73482f28d15468349a18ec5bd336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LEVELER
+    second: {fileID: 2100000, guid: f160d49a9f16f9642b9d90d2e01083fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laminate - Linen, Matte
+    second: {fileID: 2100000, guid: 49a098b8b4386d149806417394c9e009, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Limestone Panels
+    second: {fileID: 2100000, guid: 11ed4dc63cdd9984fb1467a531429445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Limestone Sills
+    second: {fileID: 2100000, guid: 8ef842056a7e0f545b94f04598c1c884, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Masonry - Brick
+    second: {fileID: 2100000, guid: b320f29f529e03b4fa0f5492e8b58143, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Masonry - Brick Soldier Course
+    second: {fileID: 2100000, guid: b4ea467f8c05b7c42a04d68d52a9c9e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Masonry - Concrete Block
+    second: {fileID: 2100000, guid: 2e152df5284432343aedfdc32eaff070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Masonry - Paver
+    second: {fileID: 2100000, guid: c03122ab309e6334ea2624db02103d40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Masonry - Stone
+    second: {fileID: 2100000, guid: e46698632c8329f4e9ca070cb9dacf3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Aluminium
+    second: {fileID: 2100000, guid: 411a724e828c28d44a21ae1351c34083, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Aluminum
+    second: {fileID: 2100000, guid: f2707a1aa88ddd7489685bcd61781d6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Aluminum (2)
+    second: {fileID: 2100000, guid: 9d1ff0c5237af71458279056899621e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Chrome
+    second: {fileID: 2100000, guid: 181f8cecd21e6ac48966c2b798f60e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Paint Finish - Dark Gray, Matte
+    second: {fileID: 2100000, guid: 65746b82fa9a28e419a7cecaf9da722c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Panel
+    second: {fileID: 2100000, guid: 14728dfbafbce044e812a59a1a1b1865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Panel - Wall Pattern
+    second: {fileID: 2100000, guid: e961eb35b706a1e45b71aae1a0ff1b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Stainless Steel, Satin Plain
+    second: {fileID: 2100000, guid: 6f0916ff66dd1834ca4dea0f36a7872c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Stud Layer
+    second: {fileID: 2100000, guid: 62c01a8dc2070354d98e1ea430a7e84e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Polished
+    second: {fileID: 2100000, guid: 27370b7f81a15d24e89a2918c977ea55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Trim
+    second: {fileID: 2100000, guid: fc9807fcf95495d41b21b56d0852b7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nystrom - Mill Aluminum
+    second: {fileID: 2100000, guid: 5d608692d9ce9364589fa26983e0a815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PAD
+    second: {fileID: 2100000, guid: 18f801de9ce2b0646974d45f7c29b5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pilkington - Profilit - Amethyst
+    second: {fileID: 2100000, guid: ee2c483a76d661545911b13426a741fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plasterboard
+    second: {fileID: 2100000, guid: f7b740a74b6d2154a9180f31b18ccf0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plasterboard w_ surface pattern
+    second: {fileID: 2100000, guid: b7a76622351ea104a81f08c8ebd4eacd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic - Black
+    second: {fileID: 2100000, guid: e5dae0f81f27f514eb19417a4d412ad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelain, White
+    second: {fileID: 2100000, guid: 5db710aaf2b9b4f41838b79d82296e83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelain,White
+    second: {fileID: 2100000, guid: 8e125691fb928664f98a19460ed98acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelin - White
+    second: {fileID: 2100000, guid: ef68f15b624bb2a4d96d2a376a5acf2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roofing - Asphalt
+    second: {fileID: 2100000, guid: fe624aac2bd995442a4f47d6b13ca5a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sash
+    second: {fileID: 2100000, guid: 5764b9cf4664f3741b30bae5c7805666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Site - Grass
+    second: {fileID: 2100000, guid: 0b02e3b901ba279428edccc3a8d6e7f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Site - Water
+    second: {fileID: 2100000, guid: e90c685411bbb57489d16c7903b60ea1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spandrel Glass
+    second: {fileID: 2100000, guid: 7bac46499b4747a429fb41fdbbd81070, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stainless Steel
+    second: {fileID: 2100000, guid: 4e11ee66e349441408fba64ff6681c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stainless Steel - Hansen
+    second: {fileID: 2100000, guid: 6f3d9e5d61838fd429d59d0d9a323402, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stone - Ballast
+    second: {fileID: 2100000, guid: ea43a6933f271ca4b80465487db71134, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textile - Bamboo Weave
+    second: {fileID: 2100000, guid: 5c3898ed6030fc64d8eab6c41011b811, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textile - Slate Blue
+    second: {fileID: 2100000, guid: 0e5162b21353f2d41942681ccb75660c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Partition
+    second: {fileID: 2100000, guid: 00cfb844862bff14f83fcad6764b0e68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Toilet Partition Shoe
+    second: {fileID: 2100000, guid: 58286570a76aaae47a81b9ca442942c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vapour _ Moisture Barriers - Damp-proofing
+    second: {fileID: 2100000, guid: 7e898e7d2979a6942ac122f5bca454c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Black Matte
+    second: {fileID: 2100000, guid: 5900e4c469c6ff14b83c949a7c8de29f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Body Color
+    second: {fileID: 2100000, guid: cabfe24c8c276e441a88d4d15548283d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Body Stripe
+    second: {fileID: 2100000, guid: 4cad3c40222e83349bd6a3c3a48ff806, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Glass
+    second: {fileID: 2100000, guid: 5590f411e5a23ae4c847bd87c8a07603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Landing Gear
+    second: {fileID: 2100000, guid: a0843a81734ac064f94df8547368fe68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Logo Cross
+    second: {fileID: 2100000, guid: bae73c718160f6543b3fcdfdb169766a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Logo Outline
+    second: {fileID: 2100000, guid: 2c0d4c9f8c416444d9b4471ef8cc9bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Logo Snake
+    second: {fileID: 2100000, guid: eed51742ffda3f44d979d8e382678221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Side Propeller
+    second: {fileID: 2100000, guid: 6d50174ad839a0c409f96205bc6d812a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vehicle - Helicopter - Yellow Matte
+    second: {fileID: 2100000, guid: ac852cdf0aa624d4b94f47ed605fc02d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window Frame
+    second: {fileID: 2100000, guid: cfe37f7234946b94ea9b43e0b2445dca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood - Birch
+    second: {fileID: 2100000, guid: 66e82651c230bbe4197e5b99357c9b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood - Pine
+    second: {fileID: 2100000, guid: adbfbc937611c2340980e7f38ee598c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood - Teak
+    second: {fileID: 2100000, guid: 8d6af3535a86db944a9dfe830668d8b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood, Cherry
+    second: {fileID: 2100000, guid: 0cb688c4b44fc6642bf33860fec920e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal - steel (1)
+    second: {fileID: 2100000, guid: 59abc99e438e5bd44a6953a4b62861f0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
