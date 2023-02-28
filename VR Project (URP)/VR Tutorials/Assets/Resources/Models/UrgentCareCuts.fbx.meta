@@ -3,7 +3,232 @@ guid: 3df9dfdec4e1d7442a164ca20c5741ba
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum
+    second: {fileID: 2100000, guid: 909d866dc7132974787b7f45dc36d4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum Painted - Green
+    second: {fileID: 2100000, guid: 815f5eae0f0f6df4ca1941d18ce717e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aluminum Painted - Red
+    second: {fileID: 2100000, guid: 6b0d412a213816a4aab47d34759618eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick, Common, Brown
+    second: {fileID: 2100000, guid: 9ee0977ce7a33e44288b2a1bbaff297f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabinets
+    second: {fileID: 2100000, guid: 2dfa9c3d5c0e7b443bb79f50e4ee002c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabinets - Handles
+    second: {fileID: 2100000, guid: 7fa1c371f0ff3db47b2104c14b15ad37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete Board Form
+    second: {fileID: 2100000, guid: f8340d59c4da3f34c8b89fc946828cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete Masonry Units
+    second: {fileID: 2100000, guid: d225d8e95bc172f4fa10e14f7aad7c09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete, Aerated
+    second: {fileID: 2100000, guid: 8479cbb7fb92a5d46bb3c7122ac6fc4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Concrete, Precast Panels
+    second: {fileID: 2100000, guid: 1bdb49f37717a3e428a934167c41c80a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Counter Top
+    second: {fileID: 2100000, guid: a54d336cecbee194f84cd44b3b494a15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: e45a1d2d1f55bbe43a8a0c502eb23f7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default Wall
+    second: {fileID: 2100000, guid: be90aa1e4b0648445affbf0466977172, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 5dab80079173bd34cb2a305adb52a428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door - Frame
+    second: {fileID: 2100000, guid: 41b7e3de92192a441a0ef6bae6e7f1d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door - Panel
+    second: {fileID: 2100000, guid: 238d18e579c18724e9b212e4197d8fb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Signage
+    second: {fileID: 2100000, guid: 0fef4c5c48ba30442858bff11d6e435a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exterior Wall Board (DensGlass)
+    second: {fileID: 2100000, guid: 18891390ef0bba544a7da1f0a62a6e6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Generic
+    second: {fileID: 2100000, guid: 3e73f6665d82e89428f1ae590c4b8639, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 62475bc88d8256c4db8b2314821f879f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass smoked white
+    second: {fileID: 2100000, guid: 67165a172a5378f4c9c35b912f8e494b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass, Frosted, High Luminance
+    second: {fileID: 2100000, guid: 0b8f36e04fa7f9a46ad1b7262d358c2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gypsum Wall Board
+    second: {fileID: 2100000, guid: c39dc9d73e52f1c4aa1cb88077df2b2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gypsum Wall Board-Type X
+    second: {fileID: 2100000, guid: 9ecd47e96c14d5f47b02ed0c0bfcf2e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laminate, Ivory, Matte
+    second: {fileID: 2100000, guid: 5fdf390b60c835b479cea8c3f5078c7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laminate-Midmark-Navy
+    second: {fileID: 2100000, guid: 336b6a923345dc9458d2e102891dca90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Laminate-Midmark-Pebble Grey
+    second: {fileID: 2100000, guid: 73a48fb2cbafc7348b9cf1b9900817cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Aluminum, Brushed
+    second: {fileID: 2100000, guid: 5bdfca05a11b24145ae7d32485de0b50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal - Steel, Polished
+    second: {fileID: 2100000, guid: 6e93d3346c4b79e418b15255d7a1de33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Furring
+    second: {fileID: 2100000, guid: 0d64d502bfc746d49bec11adb4b5518c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Stud Layer
+    second: {fileID: 2100000, guid: 1269e522cd10ce24b80bbebfa4f68adf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pine
+    second: {fileID: 2100000, guid: 45fa60e78e8acc44584060eacac8c583, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic, Opaque Black
+    second: {fileID: 2100000, guid: e821b25be3892c142a73448d5c9deb0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Polyurethane
+    second: {fileID: 2100000, guid: b9b7f442a72b40048b3c42d5e62dcc4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Porcelain - Linen
+    second: {fileID: 2100000, guid: 527d84dccaa34794c87671fbad8a6adb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Render Material 255-255-255
+    second: {fileID: 2100000, guid: e60ba3422578c44408bfaf57db100f0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rigid insulation
+    second: {fileID: 2100000, guid: 898447d92f0e344409cfe63c844ff0de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sash
+    second: {fileID: 2100000, guid: eb551b61afe3f8c44aff61e3d13277e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel, Chrome Plated
+    second: {fileID: 2100000, guid: 689f5792199f1dc4586462f8008a3968, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel, Paint Finish, Black
+    second: {fileID: 2100000, guid: 277fdcf9ef3000d4ca63f2019c06b0c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel, Paint Finish, Ivory, Glossy
+    second: {fileID: 2100000, guid: d425bd7f91051e14689d0a732d22c7f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Steel, Polished
+    second: {fileID: 2100000, guid: 028444258573a6445b5110c1558760e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teak
+    second: {fileID: 2100000, guid: 18a58ff83270d9c42acadbe38126496b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trim
+    second: {fileID: 2100000, guid: 40d125022a51c6e4d9304b55270fef04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood Planks
+    second: {fileID: 2100000, guid: 43d1cf17f7369ea4a8af2c0b668b9399, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
