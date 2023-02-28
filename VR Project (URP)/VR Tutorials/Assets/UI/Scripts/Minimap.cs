@@ -22,7 +22,7 @@ public class Minimap : MonoBehaviour
     public int scale = 1;
 
     public List<double3> locations; //starts with locs from FS
-    private List<GameObject> markers; //starts empty
+    [SerializeField] List<GameObject> markers = new List<GameObject>(); //starts empty
 
     public GameObject markerPrefab;
 
@@ -80,9 +80,11 @@ public class Minimap : MonoBehaviour
         Debug.Log(markerPos);
         GameObject newMarker = Instantiate(markerPrefab, this.transform);
 
-        newMarker.transform.position = markerPos;
+        newMarker.transform.localPosition = markerPos;
         newMarker.GetComponent<MinimapMarker>().addedByUser = addedByUser;
-        //markers.Add(newMarker);
+        newMarker.GetComponent<MinimapMarker>().locIndex = index;
+
+        markers.Add(newMarker);
     }
 
     public void RemoveMarker()

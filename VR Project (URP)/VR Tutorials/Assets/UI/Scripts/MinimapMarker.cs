@@ -19,25 +19,33 @@ struct markerState
 
 public class MinimapMarker : MonoBehaviour
 {
-    public TextMeshPro number;
+    public TextMeshPro numberText;
     public GameObject cube;
+	private Renderer cubeRenderer;
 	public bool addedByUser = false; //set by Minimap.cs
+	public int locIndex; //set by Minimap.cs
 
     public enum mode { idle, hover, active };
 
     Dictionary<mode, markerState> markerStates = new Dictionary<mode, markerState>()
     {
-        { mode.idle, new markerState(new Color(1,1,1), new Vector3(0,0,0)) },
-        { mode.hover, new markerState(new Color(0.349f, 0.839f, 1), new Vector3(-0.025f, -0.025f, -0.025f)) },
-        { mode.active, new markerState(new Color(0,0.602f,0.945f), new Vector3(-0.035f, -0.035f, -0.035f)) }
+        { mode.idle, new markerState(new Color(1,1,1), new Vector3(1,1,1)) },
+        { mode.hover, new markerState(new Color(0.257f, 0.812f, 0.945f), new Vector3(1.1f, 1.1f, 1.1f)) },
+        { mode.active, new markerState(new Color(0,0.825f,0.887f), new Vector3(1.3f, 1.3f, 1.3f)) }
     };
 
-	public void UpdateMarker(mode initialMode, mode targetMode)
+    private void Start()
+    {
+		cubeRenderer = cube.GetComponent<Renderer>();
+		SetText(locIndex.ToString());
+    }
+
+    public void UpdateMarker(mode initialMode, mode targetMode)
 	{
-		//frontPlateImg.color = Color.Lerp(buttonStates[initialMode].bgColor, buttonStates[targetMode].bgColor, 1f);
-		//icon.color = Color.Lerp(buttonStates[initialMode].fgColor, buttonStates[targetMode].fgColor, 1f);
-		//txt.color = Color.Lerp(buttonStates[initialMode].fgColor, buttonStates[targetMode].fgColor, 1f);
-		//fpTransform.anchoredPosition3D = basePos + buttonStates[targetMode].offset;
+		cubeRenderer.material.SetColor("_BaseColor", markerStates[targetMode].color);
+		cubeRenderer.material.SetColor("_EmissionColor", markerStates[targetMode].color);
+
+		cube.transform.localScale = markerStates[targetMode].scale;
 	}
 
 	public void hoverEnter()
@@ -53,6 +61,7 @@ public class MinimapMarker : MonoBehaviour
 	public void selectEnter()
 	{
 		UpdateMarker(mode.hover, mode.active);
+		this.transform.parent.GetComponent<Minimap>().OnSelectMarker(locIndex);
 	}
 
 	public void selectExit()
@@ -62,6 +71,6 @@ public class MinimapMarker : MonoBehaviour
 
 	public void SetText(string newText)
 	{
-		number.text = newText;
+		numberText.text = newText;
 	}
 }
