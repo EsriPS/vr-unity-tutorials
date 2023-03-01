@@ -76,8 +76,8 @@ public class StateManager : MonoBehaviour
 
         if (_rayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit))
         {
-            var go = GameObject.Find("GrabTarget");
-            go.transform.position = hit.point;
+            var grabTarget = hit.transform.Find("GrabTarget").gameObject;
+            grabTarget.transform.position = hit.point;
         }
     }
 
