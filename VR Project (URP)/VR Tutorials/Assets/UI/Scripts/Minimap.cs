@@ -52,8 +52,6 @@ public class Minimap : MonoBehaviour
         Matrix4x4 MinimapMatrix = DMinimapMatrix.ToMatrix4x4();
 
         double3 DViewpointPos = new double3(loc.y * scale, loc.z * 0.1, loc.x * scale);
-        //double3 DViewpointPos = loc;
-        //DViewpointPos *= scale;
         Vector3 ViewpointPos = DViewpointPos.ToVector3();
 
         /*
@@ -64,6 +62,7 @@ public class Minimap : MonoBehaviour
         Matrix4x4 reflectionMatrix = new Matrix4x4();
         reflectionMatrix = Matrix4x4.identity;
         reflectionMatrix.SetColumn(0, new Vector4(-1, 0, 0, 0));
+        // Without this the point will be reflected over the X axis
         return reflectionMatrix.MultiplyPoint3x4(point);
     }
 
