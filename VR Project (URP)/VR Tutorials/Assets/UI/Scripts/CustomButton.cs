@@ -39,18 +39,14 @@ namespace ESAVR
 		{ mode.active, new buttonState(new Color(0.5f, 0.5f, 0.5f, 0.25f), new Color(0,0.602f,0.945f), new Vector3(-0.035f, -0.035f, -0.035f)) }
 	};
 
-		// Start is called before the first frame update
-		void Start()
-        {
-			basePos = fpTransform.anchoredPosition3D;
-		}
-
 		public void UpdateButton(mode initialMode, mode targetMode)
 		{
+
 			frontPlateImg.color = Color.Lerp(buttonStates[initialMode].bgColor, buttonStates[targetMode].bgColor, 1f);
 			icon.color = Color.Lerp(buttonStates[initialMode].fgColor, buttonStates[targetMode].fgColor, 1f);
 			txt.color = Color.Lerp(buttonStates[initialMode].fgColor, buttonStates[targetMode].fgColor, 1f);
-			fpTransform.anchoredPosition3D = basePos + buttonStates[targetMode].offset;
+
+			fpTransform.localPosition = buttonStates[targetMode].offset;
 		}
 
 		public void hoverEnter()
