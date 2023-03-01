@@ -31,6 +31,7 @@ public class Minimap : MonoBehaviour
         locations.Add(new double3(-72.9108982, 41.3260946, 10));
         locations.Add(new double3(-72.9124226410097, 41.3254348359225, 10));
         locations.Add(new double3(-72.9091276205202, 41.3259003143511, 20));
+        ReadFromFS(); 
 
         CreateMinimap();
     }
@@ -101,10 +102,37 @@ public class Minimap : MonoBehaviour
 
     #endregion
 
+    #region FS Methods
 
+    void ReadFromFS()
+    {
+        //todo
+    }
+
+    void WriteToFS(int index)
+    {
+        //todo
+    }
+
+
+    #endregion
     //called from markers
     public void OnSelectMarker(int index)
     {
         StateManager.Instance.SetPlayerLocation(Convert.ToSingle(locations[index].x), Convert.ToSingle(locations[index].y), Convert.ToSingle(locations[index].z));
+    }
+
+    //called from button
+    public void OnSaveLocation()
+    {
+        //get camera location
+        ArcGISPoint cameraLoc = Camera.main.GetComponent<ArcGISLocationComponent>().Position;
+
+        //add to Locations
+        int newIndex = locations.Count;
+        locations.Add(new double3(cameraLoc.X, cameraLoc.Y, cameraLoc.Z));
+
+        AddMarker(newIndex, true);
+        WriteToFS(newIndex);
     }
 }
