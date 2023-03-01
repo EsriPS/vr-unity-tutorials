@@ -70,9 +70,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -164,9 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: LeagueSpartan-ExtraLight SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 1129154892
   material: {fileID: -3966366053326580221}
-  materialHashCode: 0
+  materialHashCode: 241667308
   m_Version: 1.1.0
   m_SourceFontFileGUID: 4d3eda7c4d16bbe44b3750ccb0269081
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 4d3eda7c4d16bbe44b3750ccb0269081, type: 3}
