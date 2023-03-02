@@ -6,6 +6,7 @@ using Esri.ArcGISMapsSDK.Components;
 using Unity.Mathematics;
 using Esri.HPFramework;
 using Esri.GameEngine.Geometry;
+using Newtonsoft.Json.Linq;
 
 public class Minimap : MonoBehaviour
 {
@@ -26,11 +27,13 @@ public class Minimap : MonoBehaviour
 
     public GameObject markerPrefab;
 
+    public string _viewpointServiceURL = "https://services1.arcgis.com/wQnFk5ouCfPzTlPw/arcgis/rest/services/NewHaven_Viewpoints/FeatureServer/0";
+
     void Start()
     {
-        locations.Add(new double3(-72.9108982, 41.3260946, 10));
-        locations.Add(new double3(-72.9124226410097, 41.3254348359225, 10));
-        locations.Add(new double3(-72.9091276205202, 41.3259003143511, 20));
+        //locations.Add(new double3(-72.9108982, 41.3260946, 10));
+        //locations.Add(new double3(-72.9124226410097, 41.3254348359225, 10));
+        //locations.Add(new double3(-72.9091276205202, 41.3259003143511, 20));
         ReadFromFS(); 
 
         CreateMinimap();
@@ -106,7 +109,31 @@ public class Minimap : MonoBehaviour
 
     void ReadFromFS()
     {
-        //todo
+        FeatureService viewpointService = new FeatureService(_viewpointServiceURL);
+        StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, markerPrefab));
+
+    }
+
+    IEnumerator CreateViewpointFeatures(string data, GameObject prefab)
+    {
+        var results = JObject.Parse(data);
+        var features = results["features"].Children();
+
+        foreach (var feature in features)
+        {
+            //var attributes = feature.SelectToken("attributes");
+            var geometry = feature.SelectToken("geometry");
+
+            var lon = (double)geometry.SelectToken("x");
+            var lat = (double)geometry.SelectToken("y");
+            var alt = (double)geometry.SelectToken("z");
+
+            int newIndex = locations.Count;
+            locations.Add(new double3(lon, lat, alt));
+            Debug.Log(locations[newIndex]);
+            //AddMarker(newIndex, false);
+            yield return null;
+        }
     }
 
     void WriteToFS(int index)

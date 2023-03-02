@@ -30,7 +30,7 @@ public class MinimapMarker : MonoBehaviour
     Dictionary<mode, markerState> markerStates = new Dictionary<mode, markerState>()
     {
         { mode.idleDefault, new markerState(new Color(1,1,1), new Vector3(1,1,1)) },
-		{ mode.idleUserAdded, new markerState(new Color(0.018f, 0.7830f, 0.3661f), new Vector3(1,1,1)) },
+		{ mode.idleUserAdded, new markerState(new Color(0.035f, 0.6886f, 0.2509f), new Vector3(1,1,1)) },
 		{ mode.hover, new markerState(new Color(0f, 0.23f, 0.945f), new Vector3(1.1f, 1.1f, 1.1f)) },
         { mode.active, new markerState(new Color(0,0.825f,0.887f), new Vector3(1.3f, 1.3f, 1.3f)) }
     };
