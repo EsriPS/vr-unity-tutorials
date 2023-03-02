@@ -30,7 +30,7 @@ public class StateManager : MonoBehaviour
     private XRRayInteractor _rayInteractor;
     private bool _grabbing = false;
     private Vector2 _rotation;
-    private GameObject _target;
+    private GameObject _grabTarget;
 
     private Dictionary<string, List<GameObject>> _scenarios = new Dictionary<string, List<GameObject>>();
 
@@ -70,8 +70,8 @@ public class StateManager : MonoBehaviour
     {
         if (_grabbing & _rotationInput.action.inProgress)
         {
-            var adjustment = _rotation.y > 0 ? 5f : -5f; 
-            _target.transform.Rotate(new Vector3(0f, adjustment, 0f));
+            var adjustment = _rotation.y > 0 ? 5f : -5f;
+            _grabTarget.transform.Rotate(new Vector3(0f, adjustment, 0f));
         }
     }
 
@@ -97,7 +97,7 @@ public class StateManager : MonoBehaviour
 
     public void HandleGrabEnter(SelectEnterEventArgs args)
     {
-        _target = args.interactableObject.transform.gameObject;
+        _grabTarget = args.interactableObject.transform.gameObject;
         _cTurnProvider.enabled = false;
         _grabbing = true;
 

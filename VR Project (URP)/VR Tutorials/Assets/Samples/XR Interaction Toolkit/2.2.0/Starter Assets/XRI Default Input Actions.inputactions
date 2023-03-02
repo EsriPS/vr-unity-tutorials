@@ -892,7 +892,7 @@
                     "name": "",
                     "id": "47959e78-d544-4669-887a-57bbee92822d",
                     "path": "<XRController>{RightHand}/Primary2DAxis",
-                    "interactions": "Sector(directions=12,sweepBehavior=1),Sector(directions=2,sweepBehavior=2)",
+                    "interactions": "Sector(directions=12,sweepBehavior=1)",
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Rotation",
