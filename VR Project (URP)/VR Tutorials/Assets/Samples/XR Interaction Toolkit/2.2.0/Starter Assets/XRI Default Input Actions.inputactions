@@ -777,6 +777,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Rotation",
+                    "type": "Value",
+                    "id": "bb1c0833-a623-4d2f-a080-8738491236cf",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -876,6 +885,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Elevation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47959e78-d544-4669-887a-57bbee92822d",
+                    "path": "<XRController>{RightHand}/Primary2DAxis",
+                    "interactions": "Sector(directions=12,sweepBehavior=1)",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Rotation",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

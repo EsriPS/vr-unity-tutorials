@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerXRO: {fileID: 1938531780}
+  _rotationInput: {fileID: -2334958105076301750, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   _artServiceURL: https://nhgis.newhavenct.gov/server/rest/services/Points_of_Interest/Public_Art/FeatureServer/0
   _artPrefab: {fileID: 8180703094090871080, guid: af831fd4d307d2149b2efb5f8f13d575, type: 3}
   _treeServiceURL: 
@@ -364,8 +365,8 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 2
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -1062,7 +1063,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &350128345
 Light:
   m_ObjectHideFlags: 0
@@ -1075,13 +1076,13 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -2124,10 +2125,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabEnter
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabExit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -2163,7 +2188,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1640057730}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -2178,7 +2203,7 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
@@ -2504,10 +2529,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabEnter
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabExit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -2543,7 +2592,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 276858436}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -2558,11 +2607,11 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -2581,7 +2630,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
+  m_ForceGravityOnDetach: 1
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
@@ -2921,10 +2970,34 @@ MonoBehaviour:
       m_Calls: []
   m_FirstSelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabEnter
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_LastSelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabExit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -2966,7 +3039,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 895780744}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -2981,11 +3054,11 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -3004,7 +3077,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
+  m_ForceGravityOnDetach: 1
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
@@ -3512,10 +3585,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabEnter
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 125795031}
+        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
+        m_MethodName: HandleGrabExit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_Activated:
     m_PersistentCalls:
       m_Calls: []
@@ -3551,7 +3648,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 840134706}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -3566,11 +3663,11 @@ MonoBehaviour:
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
-  m_TrackRotation: 1
+  m_TrackRotation: 0
   m_SmoothRotation: 0
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
-  m_ThrowOnDetach: 1
+  m_ThrowOnDetach: 0
   m_ThrowSmoothingDuration: 0.25
   m_ThrowSmoothingCurve:
     serializedVersion: 2
@@ -3589,7 +3686,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   m_ThrowVelocityScale: 1.5
   m_ThrowAngularVelocityScale: 1
-  m_ForceGravityOnDetach: 0
+  m_ForceGravityOnDetach: 1
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
   m_StartingSingleGrabTransformers: []
@@ -4370,11 +4467,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8290568573840883700, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.001
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 8290568573840883700, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.001
+      value: 0.002
       objectReference: {fileID: 0}
     - target: {fileID: 8290568573840883700, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
       propertyPath: m_LocalScale.z
@@ -4521,7 +4618,7 @@ MonoBehaviour:
   Camera_Min_Delta_Pos: 0.1
   Camera_Min_Delta_Rot: 0.1
   UI_Offset_Forward: 2
-  UI_Offset_Down: 1
+  UI_Offset_Down: 2
 --- !u!1 &2146793910 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3294689287353379222, guid: 62de0eb223969dd4a8faad430fa0eed7, type: 3}
