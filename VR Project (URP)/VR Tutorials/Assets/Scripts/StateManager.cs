@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using Newtonsoft.Json.Linq;
 using TMPro;
 using Esri.ArcGISMapsSDK.Utils.GeoCoord;
-
+using UnityEngine.InputSystem;
 
 public class StateManager : MonoBehaviour
 {
@@ -15,6 +15,7 @@ public class StateManager : MonoBehaviour
 
     [Header("General Inputs")]
     public Unity.XR.CoreUtils.XROrigin PlayerXRO;
+    [SerializeField] InputActionReference _rotationInput;
 
     [Header("Feature Service Inputs")]
     [SerializeField] private string _artServiceURL;
@@ -27,10 +28,19 @@ public class StateManager : MonoBehaviour
     private ArcGISLocationComponent _playerLocation;
     private ActionBasedContinuousTurnProvider _cTurnProvider;
     private XRRayInteractor _rayInteractor;
+    private bool _grabbing = false;
+    private Vector2 _rotation;
+    private GameObject _grabTarget;
 
     private Dictionary<string, List<GameObject>> _scenarios = new Dictionary<string, List<GameObject>>();
 
 
+    private void OnEnable()
+    {
+        _rotationInput.action.performed += ReadRotation;
+    }
+
+    #region Monobehavior Lifecylce
     private void Start()
     {
         // Ensure XR Origin has Location that can be modified from the UI
@@ -56,6 +66,15 @@ public class StateManager : MonoBehaviour
         StartCoroutine(artService.RequestFeatures("OBJECTID in (21, 36, 107, 57, 126, 54, 98, 97)", CreateArtFeatures, _artPrefab));
     }
 
+    private void Update()
+    {
+        if (_grabbing & _rotationInput.action.inProgress)
+        {
+            var adjustment = _rotation.y > 0 ? 5f : -5f;
+            _grabTarget.transform.Rotate(new Vector3(0f, adjustment, 0f));
+        }
+    }
+
     void Awake()
     {
         if (Instance != null)
@@ -68,22 +87,31 @@ public class StateManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
+    #endregion
+
     #region UI Methods
+    private void ReadRotation(InputAction.CallbackContext obj)
+    {
+        _rotation = obj.ReadValue<Vector2>();
+    }
 
     public void HandleGrabEnter(SelectEnterEventArgs args)
     {
+        _grabTarget = args.interactableObject.transform.gameObject;
         _cTurnProvider.enabled = false;
+        _grabbing = true;
 
         if (_rayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit))
         {
-            var go = GameObject.Find("GrabTarget");
-            go.transform.position = hit.point;
+            var grabTarget = hit.transform.Find("GrabTarget").gameObject;
+            grabTarget.transform.position = hit.point;
         }
     }
 
     public void HandleGrabExit(SelectExitEventArgs args)
     {
         _cTurnProvider.enabled = true;
+        _grabbing = false;
 
         var rb = args.interactableObject.transform.gameObject.GetComponent<Rigidbody>();
         rb.isKinematic = false;
