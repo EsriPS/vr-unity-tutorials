@@ -6,7 +6,9 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using Newtonsoft.Json.Linq;
 using TMPro;
+using Esri.HPFramework;
 using Esri.ArcGISMapsSDK.Utils.GeoCoord;
+using Unity.Mathematics;
 using UnityEngine.InputSystem;
 
 public class StateManager : MonoBehaviour
@@ -20,6 +22,7 @@ public class StateManager : MonoBehaviour
     [Header("Feature Service Inputs")]
     [SerializeField] private string _artServiceURL;
     [SerializeField] private GameObject _artPrefab;
+    //todo: sub this for marker prefab
     [SerializeField] private string _treeServiceURL;
     [SerializeField] private GameObject _treePrefab;
     private GameObject _fsContainer;
@@ -34,6 +37,7 @@ public class StateManager : MonoBehaviour
 
     private Dictionary<string, List<GameObject>> _scenarios = new Dictionary<string, List<GameObject>>();
 
+    private FeatureService viewpointService;
 
     private void OnEnable()
     {
@@ -64,6 +68,11 @@ public class StateManager : MonoBehaviour
         // Begin Loading Art POIs
         FeatureService artService = new FeatureService(_artServiceURL);
         StartCoroutine(artService.RequestFeatures("OBJECTID in (21, 36, 107, 57, 126, 54, 98, 97)", CreateArtFeatures, _artPrefab));
+
+        viewpointService = new FeatureService(Minimap.Instance._viewpointServiceURL);
+        StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, Minimap.Instance.markerPrefab));
+
+
     }
 
     private void Update()
@@ -152,6 +161,46 @@ public class StateManager : MonoBehaviour
         location.Rotation = new ArcGISRotation(0f, 90f, 0f);
 
         return locationMarker;
+    }
+
+    IEnumerator CreateViewpointFeatures(string data, GameObject prefab)
+    {
+        var results = JObject.Parse(data);
+        var features = results["features"].Children();
+
+        foreach (var feature in features)
+        {
+            //var attributes = feature.SelectToken("attributes");
+            var geometry = feature.SelectToken("geometry");
+
+            var lon = (double)geometry.SelectToken("x");
+            var lat = (double)geometry.SelectToken("y");
+            //var alt = (double)geometry.SelectToken("z");
+            var alt = 10;
+
+            int newIndex = Minimap.Instance.locations.Count;
+            Minimap.Instance.locations.Add(new double3(lon, lat, alt));
+            Debug.Log(Minimap.Instance.locations[newIndex]);
+            Minimap.Instance.AddMarker(newIndex, false);
+            yield return null;
+        }
+    }
+
+    public void WriteMiniMarker(double3 loc)
+    {
+        var attributes = new Dictionary<string, object>()
+        {  };
+        var geometry = new Dictionary<string, object>()
+                    {
+                        { "x", loc.x },
+                        { "y", loc.y },
+                    };
+        var feature = new Dictionary<string, Dictionary<string, object>>()
+                    {
+
+            { "attributes", attributes}, {"geometry", geometry }
+                    };
+        StartCoroutine(viewpointService.WriteFeature(feature));
     }
 
     IEnumerator CreateArtFeatures(string data, GameObject prefab)

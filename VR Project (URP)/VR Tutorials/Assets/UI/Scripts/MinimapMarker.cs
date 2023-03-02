@@ -25,12 +25,13 @@ public class MinimapMarker : MonoBehaviour
 	public bool addedByUser = false; //set by Minimap.cs
 	public int locIndex; //set by Minimap.cs
 
-    public enum mode { idle, hover, active };
+    public enum mode { idleDefault, idleUserAdded, hover, active };
 
     Dictionary<mode, markerState> markerStates = new Dictionary<mode, markerState>()
     {
-        { mode.idle, new markerState(new Color(1,1,1), new Vector3(1,1,1)) },
-        { mode.hover, new markerState(new Color(0f, 0.23f, 0.945f), new Vector3(1.1f, 1.1f, 1.1f)) },
+        { mode.idleDefault, new markerState(new Color(1,1,1), new Vector3(1,1,1)) },
+		{ mode.idleUserAdded, new markerState(new Color(0.035f, 0.6886f, 0.2509f), new Vector3(1,1,1)) },
+		{ mode.hover, new markerState(new Color(0f, 0.23f, 0.945f), new Vector3(1.1f, 1.1f, 1.1f)) },
         { mode.active, new markerState(new Color(0,0.825f,0.887f), new Vector3(1.3f, 1.3f, 1.3f)) }
     };
 
@@ -38,9 +39,11 @@ public class MinimapMarker : MonoBehaviour
     {
 		cubeRenderer = cube.GetComponent<Renderer>();
 		SetText(locIndex.ToString());
+		mode value;
+		UpdateMarker(value = addedByUser ? mode.idleUserAdded : mode.idleDefault);
     }
 
-    public void UpdateMarker(mode initialMode, mode targetMode)
+    public void UpdateMarker(mode targetMode)
 	{
 		cubeRenderer.material.SetColor("_BaseColor", markerStates[targetMode].color);
 		cubeRenderer.material.SetColor("_EmissionColor", markerStates[targetMode].color);
@@ -50,23 +53,25 @@ public class MinimapMarker : MonoBehaviour
 
 	public void hoverEnter()
 	{
-		UpdateMarker(mode.idle, mode.hover);
+		UpdateMarker(mode.hover);
 	}
 
 	public void hoverExit()
 	{
-		UpdateMarker(mode.hover, mode.idle);
+		mode value;
+		UpdateMarker(value = addedByUser ? mode.idleUserAdded : mode.idleDefault);
 	}
 
 	public void selectEnter()
 	{
-		UpdateMarker(mode.hover, mode.active);
+		UpdateMarker(mode.active);
 		this.transform.parent.GetComponent<Minimap>().OnSelectMarker(locIndex);
 	}
 
 	public void selectExit()
 	{
-		UpdateMarker(mode.active, mode.idle);
+		mode value;
+		UpdateMarker(value = addedByUser ? mode.idleUserAdded : mode.idleDefault);
 	}
 
 	public void SetText(string newText)
