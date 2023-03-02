@@ -26,6 +26,7 @@ public class StateManager : MonoBehaviour
     private GameObject _agsMap;
     private ArcGISLocationComponent _playerLocation;
     private ActionBasedContinuousTurnProvider _cTurnProvider;
+    private XRRayInteractor _rayInteractor;
 
     private Dictionary<string, List<GameObject>> _scenarios = new Dictionary<string, List<GameObject>>();
 
@@ -38,6 +39,10 @@ public class StateManager : MonoBehaviour
         // Get Access to the Turn Provider to help with FBX manipluation
         var lsGo = GameObject.Find("Locomotion System");
         _cTurnProvider = lsGo.GetComponent<ActionBasedContinuousTurnProvider>();
+
+        // Get Access to XR Ray Interactor to Improve Grab Events
+        var rhGo = GameObject.Find("RightHand Controller");
+        _rayInteractor = rhGo.GetComponent<XRRayInteractor>();
 
         // Find ArcGIS Map Game Object for Parenting Purposes
         _agsMap = GameObject.Find("ArcGISMap");
@@ -68,6 +73,12 @@ public class StateManager : MonoBehaviour
     public void HandleGrabEnter(SelectEnterEventArgs args)
     {
         _cTurnProvider.enabled = false;
+
+        if (_rayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit))
+        {
+            var go = GameObject.Find("GrabTarget");
+            go.transform.position = hit.point;
+        }
     }
 
     public void HandleGrabExit(SelectExitEventArgs args)
