@@ -24,7 +24,6 @@ public class FeatureService
         form.AddField("f", "json");
 
         var queryURL = $"{_serviceURL}/query";
-        Debug.Log(queryURL);
         using (UnityWebRequest www = UnityWebRequest.Post(queryURL, form))
         {
             yield return www.SendWebRequest();
@@ -61,7 +60,6 @@ public class FeatureService
             else
             {
                 var response = JObject.Parse(www.downloadHandler.text);
-                Debug.Log(response);
                 var results = response["addResults"].Children();
 
                 foreach (var result in results)
@@ -70,7 +68,7 @@ public class FeatureService
                     var oid = long.Parse(result.SelectToken("objectId").ToString());
 
                     if (success)
-                        Debug.Log("yay!!!!!");
+                        Debug.Log("Success");
                 }
 
                 yield return null;
