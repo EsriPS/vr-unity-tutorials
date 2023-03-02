@@ -10,14 +10,7 @@ using Newtonsoft.Json.Linq;
 
 public class Minimap : MonoBehaviour
 {
-
-    /* origin coords for testing
-     * 
-     * -72.9108982
-     * 41.3260946
-     * 10
-     */
-
+    public static Minimap Instance;
     public ArcGISMapComponent map; //to get origin coordinates
     /* Adjust for demo purposes */
     public int scale = 500;
@@ -28,15 +21,26 @@ public class Minimap : MonoBehaviour
     public GameObject markerPrefab;
 
     public string _viewpointServiceURL = "https://services1.arcgis.com/wQnFk5ouCfPzTlPw/arcgis/rest/services/NewHaven_Viewpoints/FeatureServer/0";
+    void Awake()
+    {
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
 
     void Start()
     {
         //locations.Add(new double3(-72.9108982, 41.3260946, 10));
         //locations.Add(new double3(-72.9124226410097, 41.3254348359225, 10));
         //locations.Add(new double3(-72.9091276205202, 41.3259003143511, 20));
-        ReadFromFS(); 
+        //ReadFromFS();
 
-        CreateMinimap();
+        //CreateMinimap();
     }
 
     #region Math
@@ -107,34 +111,35 @@ public class Minimap : MonoBehaviour
 
     #region FS Methods
 
-    void ReadFromFS()
-    {
-        FeatureService viewpointService = new FeatureService(_viewpointServiceURL);
-        StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, markerPrefab));
+    //void ReadFromFS()
+    //{
+    //    FeatureService viewpointService = new FeatureService(_viewpointServiceURL);
+    //    StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, markerPrefab));
+    //    //CreateMinimap();
+    //}
 
-    }
+    //IEnumerator CreateViewpointFeatures(string data, GameObject prefab)
+    //{
+    //    var results = JObject.Parse(data);
+    //    var features = results["features"].Children();
 
-    IEnumerator CreateViewpointFeatures(string data, GameObject prefab)
-    {
-        var results = JObject.Parse(data);
-        var features = results["features"].Children();
+    //    foreach (var feature in features)
+    //    {
+    //        //var attributes = feature.SelectToken("attributes");
+    //        var geometry = feature.SelectToken("geometry");
 
-        foreach (var feature in features)
-        {
-            //var attributes = feature.SelectToken("attributes");
-            var geometry = feature.SelectToken("geometry");
+    //        var lon = (double)geometry.SelectToken("x");
+    //        var lat = (double)geometry.SelectToken("y");
+    //        //var alt = (double)geometry.SelectToken("z");
+    //        var alt = 10;
 
-            var lon = (double)geometry.SelectToken("x");
-            var lat = (double)geometry.SelectToken("y");
-            var alt = (double)geometry.SelectToken("z");
-
-            int newIndex = locations.Count;
-            locations.Add(new double3(lon, lat, alt));
-            Debug.Log(locations[newIndex]);
-            //AddMarker(newIndex, false);
-            yield return null;
-        }
-    }
+    //        int newIndex = locations.Count;
+    //        locations.Add(new double3(lon, lat, alt));
+    //        Debug.Log(locations[newIndex]);
+    //        AddMarker(newIndex, false);
+    //        yield return null;
+    //    }
+    //}
 
     void WriteToFS(int index)
     {
@@ -160,6 +165,6 @@ public class Minimap : MonoBehaviour
         locations.Add(new double3(cameraLoc.X, cameraLoc.Y, cameraLoc.Z));
 
         AddMarker(newIndex, true);
-        WriteToFS(newIndex);
+        StateManager.Instance.WriteMiniMarker(locations[newIndex]);
     }
 }

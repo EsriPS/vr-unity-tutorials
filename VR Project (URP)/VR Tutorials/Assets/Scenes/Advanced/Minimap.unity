@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerXRO: {fileID: 1938531780}
-  _artServiceURL: 
-  _artPrefab: {fileID: 0}
+  _artServiceURL: https://nhgis.newhavenct.gov/server/rest/services/Points_of_Interest/Public_Art/FeatureServer/0
+  _artPrefab: {fileID: 8180703094090871080, guid: af831fd4d307d2149b2efb5f8f13d575, type: 3}
   _treeServiceURL: 
   _treePrefab: {fileID: 0}
 --- !u!4 &125795032
@@ -1438,6 +1438,7 @@ MonoBehaviour:
   locations: []
   markers: []
   markerPrefab: {fileID: 6353869768201962176, guid: 39a475c0c31e91f448dd45f45f9dfafe, type: 3}
+  _viewpointServiceURL: https://services1.arcgis.com/wQnFk5ouCfPzTlPw/ArcGIS/rest/services/NewHaven_Viewpoints/FeatureServer/0
 --- !u!1 &467727837
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,6 +2919,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 282127c11ddaca14ab1a4fc19a8fa518, type: 3}
   m_PrefabInstance: {fileID: 1677691225}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1716305775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716305776}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1716305776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716305775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.033171177, y: 1.0827258, z: -0.019874975}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1722066489
 PrefabInstance:
   m_ObjectHideFlags: 0
