@@ -41,6 +41,7 @@ public class Minimap : MonoBehaviour
         //ReadFromFS();
 
         //CreateMinimap();
+        OnSaveLocation();
     }
 
     #region Math
@@ -158,11 +159,10 @@ public class Minimap : MonoBehaviour
     public void OnSaveLocation()
     {
         //get camera location
-        ArcGISPoint cameraLoc = Camera.main.GetComponent<ArcGISLocationComponent>().Position;
-
+        ArcGISLocationComponent cameraLoc = Camera.main.GetComponent<ArcGISLocationComponent>();
         //add to Locations
         int newIndex = locations.Count;
-        locations.Add(new double3(cameraLoc.X, cameraLoc.Y, cameraLoc.Z));
+        locations.Add(new double3(cameraLoc.Position.X, cameraLoc.Position.Y, cameraLoc.Position.Z));
 
         AddMarker(newIndex, true);
         StateManager.Instance.WriteMiniMarker(locations[newIndex]);

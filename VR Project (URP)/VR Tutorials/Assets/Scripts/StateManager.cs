@@ -23,8 +23,8 @@ public class StateManager : MonoBehaviour
     [SerializeField] private string _artServiceURL;
     [SerializeField] private GameObject _artPrefab;
     //todo: sub this for marker prefab
-    [SerializeField] private string _treeServiceURL;
-    [SerializeField] private GameObject _treePrefab;
+    //[SerializeField] private string _treeServiceURL;
+    //[SerializeField] private GameObject _treePrefab;
     private GameObject _fsContainer;
 
     private GameObject _agsMap;
@@ -180,7 +180,7 @@ public class StateManager : MonoBehaviour
 
             int newIndex = Minimap.Instance.locations.Count;
             Minimap.Instance.locations.Add(new double3(lon, lat, alt));
-            Debug.Log(Minimap.Instance.locations[newIndex]);
+            Debug.Log("Read in from FS: " + Minimap.Instance.locations[newIndex]);
             Minimap.Instance.AddMarker(newIndex, false);
             yield return null;
         }
@@ -189,13 +189,21 @@ public class StateManager : MonoBehaviour
     public void WriteMiniMarker(double3 loc)
     {
         var attributes = new Dictionary<string, object>()
-        {  };
+        { };
+        var spatialRef = new JObject();
+        spatialRef.Add("wkid", 4326);
+
         var geometry = new Dictionary<string, object>()
-                    {
-                        { "x", loc.x },
-                        { "y", loc.y },
-                    };
-        var feature = new Dictionary<string, Dictionary<string, object>>()
+
+        {
+            { "x", loc.x },
+            { "y", loc.y },
+             { "spatialReference", spatialRef  }
+        };
+
+
+
+var feature = new Dictionary<string, Dictionary<string, object>>()
                     {
 
             { "attributes", attributes}, {"geometry", geometry }

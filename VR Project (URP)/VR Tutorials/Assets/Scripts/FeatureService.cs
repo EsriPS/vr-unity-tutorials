@@ -44,7 +44,7 @@ public class FeatureService
         WWWForm form = new WWWForm();
         form.AddField("adds", JsonConvert.SerializeObject(feature));
         //form.AddField("adds", $"{{\"geometry\": {{\"x\": {feature.x}, \"y\": {feature.y}}}}}");
-
+        //form.AddField("outSR", "4326");
         form.AddField("f", "json");
 
         var applyEditsURL = $"{_serviceURL}/applyEdits";
