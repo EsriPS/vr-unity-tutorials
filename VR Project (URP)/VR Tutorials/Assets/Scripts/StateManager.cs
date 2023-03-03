@@ -170,17 +170,14 @@ public class StateManager : MonoBehaviour
 
         foreach (var feature in features)
         {
-            //var attributes = feature.SelectToken("attributes");
             var geometry = feature.SelectToken("geometry");
 
             var lon = (double)geometry.SelectToken("x");
             var lat = (double)geometry.SelectToken("y");
-            //var alt = (double)geometry.SelectToken("z");
             var alt = 10;
 
             int newIndex = Minimap.Instance.locations.Count;
             Minimap.Instance.locations.Add(new double3(lon, lat, alt));
-            Debug.Log("Read in from FS: " + Minimap.Instance.locations[newIndex]);
             Minimap.Instance.AddMarker(newIndex, false);
             yield return null;
         }
@@ -188,26 +185,25 @@ public class StateManager : MonoBehaviour
 
     public void WriteMiniMarker(double3 loc)
     {
-        var attributes = new Dictionary<string, object>()
-        { };
+        // Set up fields
+        var attributes = new Dictionary<string, object>(){ };
         var spatialRef = new JObject();
         spatialRef.Add("wkid", 4326);
-
         var geometry = new Dictionary<string, object>()
-
         {
             { "x", loc.x },
             { "y", loc.y },
-             { "spatialReference", spatialRef  }
+            { "spatialReference", spatialRef  }
         };
 
+        //Create dictionary for serialization
+        var feature = new Dictionary<string, Dictionary<string, object>>()
+        {
+            { "attributes", attributes},
+            {"geometry", geometry }
+        };
 
-
-var feature = new Dictionary<string, Dictionary<string, object>>()
-                    {
-
-            { "attributes", attributes}, {"geometry", geometry }
-                    };
+        // POST
         StartCoroutine(viewpointService.WriteFeature(feature));
     }
 

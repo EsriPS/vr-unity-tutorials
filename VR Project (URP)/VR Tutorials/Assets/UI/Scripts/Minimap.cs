@@ -33,17 +33,6 @@ public class Minimap : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    void Start()
-    {
-        //locations.Add(new double3(-72.9108982, 41.3260946, 10));
-        //locations.Add(new double3(-72.9124226410097, 41.3254348359225, 10));
-        //locations.Add(new double3(-72.9091276205202, 41.3259003143511, 20));
-        //ReadFromFS();
-
-        //CreateMinimap();
-        OnSaveLocation();
-    }
-
     #region Math
 
     Vector3 WorldToMinimap(double3 loc)
@@ -78,21 +67,11 @@ public class Minimap : MonoBehaviour
     #endregion
 
     #region Minimap Methods
-    public void CreateMinimap()
-    {
-        for(int i = 0; i < locations.Count; i+= 1)
-        {
-            AddMarker(i, false);
-        }
-    }
-
-
 
     public void AddMarker(int index, bool addedByUser)
     {
         double3 loc = locations[index];
         Vector3 markerPos = WorldToMinimap(loc);
-        Debug.Log(markerPos);
         GameObject newMarker = Instantiate(markerPrefab, this.transform);
 
         newMarker.transform.localPosition = markerPos;
@@ -101,11 +80,6 @@ public class Minimap : MonoBehaviour
         newMarker.GetComponent<MinimapMarker>().locIndex = index;
 
         markers.Add(newMarker);
-    }
-
-    public void RemoveMarker()
-    {
-
     }
 
     #endregion
