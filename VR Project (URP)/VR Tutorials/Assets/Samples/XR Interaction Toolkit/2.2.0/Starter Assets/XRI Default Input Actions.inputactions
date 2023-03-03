@@ -278,6 +278,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "GripSqueezed",
+                    "type": "Button",
+                    "id": "c27462c1-eba5-4b1c-9be3-3bc4d533a2df",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -366,6 +375,17 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "Generic XR Controller",
                     "action": "Translate Anchor",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73d8c052-65f9-4ea0-90fc-3e6d81bc269c",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "GripSqueezed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -786,6 +806,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "GripSqueezed",
+                    "type": "Button",
+                    "id": "d0fa24b4-ecb8-4e07-a699-5a2de15556f7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -896,6 +925,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c59e2e8a-a3c7-4e59-9de8-da747fb0cb33",
+                    "path": "<XRController>{RightHand}/gripPressed",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "GripSqueezed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
