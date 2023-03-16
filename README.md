@@ -22,12 +22,6 @@ README GUIDELINES END -->
 This section is a simple table of contents to help users navigate your README. GitHub automatically turns your markdown headers into kebab-cased anchor tags, so linking is really simple.
 
 CONTENTS GUIDELINES END -->
-  
-## Contents
-
-- [Contents](#contents)
-- [About](#about)
-- [Getting Started](#getting-started)
 
 <!-- ABOUT SECTION GUIDELINES START
 
@@ -37,17 +31,14 @@ ABOUT SECTION GUIDELINES END -->
   
 ## About
 
-todo
+This repo (currently in progress) contains a URP project showcasing our VR development work, and a HDRP project showcasing Realtime work. These projects are intended to walk the user through a progression of scenes that can be used as teaching tools.
 
 <!-- GETTING STARTED SECTION GUIDELINES START
 
 This section should contain brief documentation written for first time users on how to get started using the project. If you have more detailed documentation, you should keep this section but just link users to your docs.
 
 GETTING STARTED SECTION GUIDELINES END -->
-  
-## Getting Started
 
-todo
 
 
 <!-- ADDITIONAL GUIDELINES START
