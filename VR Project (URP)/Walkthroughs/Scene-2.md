@@ -30,18 +30,7 @@ There are three formats that the Maps SDK currently supports:
         * Spatial Reference WKID: 4326
 * Add a Box Collider to the Urgent Care.
     * Edit Vertices to match general shape of the Urgent Care building.
-* Add Rigid Body
-    * The default options will have gravity enabled by default. This should cause the building to fall as soon as the Scene starts.
-* Remove Gravity
-    * The building will now fly away whenver the terrain is rendered with a Mesh Collider.
-* Set "Is Kinematic" value on the RigidBody to True; i.e. check it.
-    * This building should not fly away now.
-* Add the XR Grab Interactable
-    * Note the GrabTarget set for the Attach Transform property.
-    * There are 2 main issues with our default setup:
-        * Rotation - As we move the right joystrick to rotate the building, the XR rig is also rotating because of the Continuouus Turn Providers.
-        * Gravity - Since we are using Kinematic to ensrue the building does not fly away when the Scene starts, the building is stuck where we leave it. 
-* Fix the Rotation
-    * Hook up the HandleGrabEnter method from the StateManager to the XR Grab Interactable.
-* Fix Gravity
-    * Hook up the HandleGrabExit method from the StateManager to the XR Grab Interactable.
+### Changing the Basemap
+
+### A Note on Elevation Layers
+* While changing the elevation layer service isn't a step in our walkthrough, it is worth mentioning for future interest. The elevation component in the Maps SDK can point to custom elevation layer services. As an example, elevation information stored in drone-collected data can be extracted and published as a hosted elevation service. By grabbing the REST url as we've done for scene layers, we can insert the url in the Maps SDK inspector to have a custom elevation layer in our application.
