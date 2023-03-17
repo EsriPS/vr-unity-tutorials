@@ -33,4 +33,7 @@ There are three formats that the Maps SDK currently supports:
 ### Changing the Basemap
 
 ### A Note on Elevation Layers
-* While changing the elevation layer service isn't a step in our walkthrough, it is worth mentioning for future interest. The elevation component in the Maps SDK can point to custom elevation layer services. As an example, elevation information stored in drone-collected data can be extracted and published as a hosted elevation service. By grabbing the REST url as we've done for scene layers, we can insert the url in the Maps SDK inspector to have a custom elevation layer in our application.
+
+While changing the elevation layer service isn't a step in our walkthrough, it is worth mentioning for future interest. 
+
+The elevation component in the Maps SDK can point to custom elevation layer services. As an example, elevation information stored in drone-collected data can be extracted and published as a hosted elevation service. By grabbing the REST url as we've done for scene layers, we can insert the url in the Maps SDK inspector to have a custom elevation layer in our application.
