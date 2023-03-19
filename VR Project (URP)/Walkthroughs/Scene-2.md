@@ -10,7 +10,7 @@ There are three formats that the Maps SDK currently supports:
     * 3D Object Scene Layer - Contains features such as exterior shells od buildings that are modeled in 3D, created from multipatch, and visualized with textures.
     * Integrated Mesh Scene Layer - Textured continuous mesh collected from site scans or drone imagery containing 3D objects and elevation.
 
-## Scene Updates
+## Scene Updates (TO-DO)
 
 * Management - This Game Object has a Script Component (StateManager.cs) attached. Take a moment to review this script. 
 * ArcGISMap - We have a new Game Object that is acting as a "parent" to the XR rig set up in the previous Scene.
@@ -19,17 +19,18 @@ There are three formats that the Maps SDK currently supports:
 
 ## Walkthrough
 ### Adding a Scene Layer
-* On the ArcGISMap Component, inspect the Layers section.
-* 
-* Add the UrgentCare FBX from the Assets/Resources/Models folder under the ArcGISMap Game Object.
-* Add an ArcGIS Location Component to this new Game Object.
-    * Update the values as follows:
-        * Latitude: 41.3260946
-        * Longitude: -72.9108982
-        * Altitude: 0
-        * Spatial Reference WKID: 4326
-* Add a Box Collider to the Urgent Care.
-    * Edit Vertices to match general shape of the Urgent Care building.
+* In the ArcGISMap Component inspector, open the Layers section. The list reads '0', meaning we have no GIS data layers in the scene at the moment.
+* Click the '+' in the 'List is Empty' box to add a layer element.
+* In the 'Element 0' box, update the values as follows:
+        * Name: New Haven Buildings
+        * Type: ArcGIS 3DObject Scene Layer
+        * Source: ' rest url here '
+        * Opacity: 0
+        * Is Visible: checked
+        * Authentication: None
+
+###
+
 ### Changing the Basemap
 
 ### A Note on Elevation Layers
