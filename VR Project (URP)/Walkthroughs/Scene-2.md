@@ -22,12 +22,12 @@ There are three formats that the Maps SDK currently supports:
 * In the ArcGISMap Component inspector, open the Layers section. The list reads '0', meaning we have no GIS data layers in the scene at the moment.
 * Click the '+' in the 'List is Empty' box to add a layer element.
 * In the 'Element 0' box, update the values as follows:
-        * Name: Buildings
-        * Type: ArcGIS 3DObject Scene Layer
-        * Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
-        * Opacity: 1
-        * Is Visible: checked
-        * Authentication: None
+    * Name: Buildings
+    * Type: ArcGIS 3DObject Scene Layer
+    * Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
+    * Opacity: 1
+    * Is Visible: checked
+    * Authentication: None
 * Running the scene will display the new layer of buildings we brought in.
 
 ### Creating a Scene Layer
