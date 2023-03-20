@@ -21,24 +21,24 @@ There are three formats that the Maps SDK currently supports:
 ### Adding a Scene Layer
 * In the ArcGISMap Component inspector, open the Layers section. The list reads '0', meaning we have no GIS data layers in the scene at the moment.
 * Click the '+' in the 'List is Empty' box to add a layer element.
-* In the 'Element 0' box, update the values as follows:
-    * Name: Buildings
-    * Type: ArcGIS 3DObject Scene Layer
-    * Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
-    * Opacity: 1
-    * Is Visible: checked
-    * Authentication: None
+   * In the 'Element 0' box, update the values as follows:
+      * Name: Buildings
+      * Type: ArcGIS 3DObject Scene Layer
+      * Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
+      * Opacity: 1
+      * Is Visible: checked
+      * Authentication: None
 * Running the scene will display the new layer of buildings we brought in.
 
 ### Creating a Scene Layer
 * While you won't be creating this content yourself in the walkthrough, it is important to cover at least one way that content can be created. A demonstration in ArcGIS Pro will supplement this section.
-* After the demonstration, add the new building layer in the ArcGIS Map Component inspector and update the values as follows:
-        * Name: New Building
-        * Type: ArcGIS 3DObject Scene Layer
-        * Source: https://tiles.arcgis.com/tiles/wQnFk5ouCfPzTlPw/arcgis/rest/services/NewBuilding/SceneServer
-        * Opacity: 1
-        * Is Visible: checked
-        * Authentication: None
+   * Add the new building layer in the ArcGIS Map Component inspector and update the values as follows:
+      * Name: New Building
+      * Type: ArcGIS 3DObject Scene Layer
+      * Source: https://tiles.arcgis.com/tiles/wQnFk5ouCfPzTlPw/arcgis/rest/services/NewBuilding/SceneServer
+      * Opacity: 1
+      * Is Visible: checked
+      * Authentication: None
 
 ### Changing the Basemap
 
