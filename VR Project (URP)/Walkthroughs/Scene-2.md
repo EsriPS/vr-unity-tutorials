@@ -1,4 +1,4 @@
-# Scene 2 - xxxxxx
+# Scene 2 - The Maps SDK
 
 There are a few ways that content is created for use in the Maps SDK. In this section, we'll explore supported layer types, adding layers to scenes, and creating new content layers for scenes.
 
