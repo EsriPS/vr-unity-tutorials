@@ -153,6 +153,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerXRO: {fileID: 1938531780}
+  _rotationInput: {fileID: -2334958105076301750, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _artServiceURL: 
+  _artPrefab: {fileID: 0}
 --- !u!4 &125795032
 Transform:
   m_ObjectHideFlags: 0
