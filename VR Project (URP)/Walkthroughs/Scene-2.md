@@ -48,7 +48,7 @@ There are three formats that the Maps SDK currently supports:
       * Basemap Type: ArcGIS Basemap
 * The basemap updates in the Scene view.
 
-### A Note on Elevation Layers
+## A Note on Elevation Layers
 
 While changing the elevation layer service isn't a step in our walkthrough, it is worth mentioning for future interest. 
 
