@@ -46,6 +46,7 @@ There are three formats that the Maps SDK currently supports:
    * As an example, change the parameters in the Basemap group as follows:
       * Basemap: https://www.arcgis.com/sharing/rest/content/items/90f86b329f37499096d3715ac6e5ed1f/data
       * Basemap Type: ArcGIS Basemap
+      * Authentication: None
 * The basemap updates in the Scene view.
 
 ## A Note on Elevation Layers
