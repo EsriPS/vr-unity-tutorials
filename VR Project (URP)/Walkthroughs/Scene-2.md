@@ -39,8 +39,14 @@ There are three formats that the Maps SDK currently supports:
       * Opacity: 1
       * Is Visible: checked
       * Authentication: None
+* Running the scene will display the new layer of buildings we brought in.
 
 ### Changing the Basemap
+* We can also change the basemap layer that is shown in our applications. There are over 25 styles of basemaps to choose from.
+   * As an example, change the parameters in the Basemap group as follows:
+      * Basemap: https://www.arcgis.com/sharing/rest/content/items/90f86b329f37499096d3715ac6e5ed1f/data
+      * Basemap Type: ArcGIS Basemap
+* The basemap updates in the Scene view.
 
 ### A Note on Elevation Layers
 
