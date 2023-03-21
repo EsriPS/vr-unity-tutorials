@@ -2235,11 +2235,18 @@ MonoBehaviour:
   layers:
   - Name: Buildings
     Type: 1
-    Source: 
-    Opacity: 0
-    IsVisible: 0
+    Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
+    Opacity: 1
+    IsVisible: 1
     Authentication:
-      ConfigurationIndex: 0
+      ConfigurationIndex: -1
+  - Name: More Buildings
+    Type: 1
+    Source: https://tiles.arcgis.com/tiles/wQnFk5ouCfPzTlPw/arcgis/rest/services/NewBuilding/SceneServer
+    Opacity: 1
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
   originPosition:
     x: -72.9008807
     y: 41.3258219
