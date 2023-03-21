@@ -1,6 +1,6 @@
 # Scene 2 - The Maps SDK
 
-There are a few ways that content is created for use in the Maps SDK. In this section, we'll explore supported layer types, adding layers to scenes, and creating new content layers for scenes.
+There are a few ways that content is created for use in the Maps SDK. In this section, we'll explore supported layer types, adding or changing layers in scenes, and creating new content layers for scenes.
 
 ## Supported Layer Types
 There are three formats that the Maps SDK currently supports:
