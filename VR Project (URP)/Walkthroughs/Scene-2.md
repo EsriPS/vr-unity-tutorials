@@ -31,7 +31,8 @@ ArcGISMap
     * Explore the other default Basemaps provided in the plugin.
     * Close the ArcGIS Maps SDK plugin.
 * Go to the ArcGIS Map Component on the ArcGIS Map Game Object and find the Elevation section.
-    * Copy the URL to the World Elevation Service. 
+    * Copy the URL to the World Elevation Service.
+        * https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer
     * Delete the URL and navigate around the Scene to observe the differences. 
     * Add the URL back. 
 * Go to the ArcGIS Map Component on the ArcGIS Map Game Object and find the Layers section. 
