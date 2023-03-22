@@ -9,7 +9,7 @@ There are a few changes to this Scene that are worth reviewing before we dive in
 * RightHand Contoller (XR Ray Interactor) - Force Grab was turned off to give us a different experience when grabbing a building.
 * Elevation Controller - New Input Action to handle moving up/down using the right controller.
 
-## Walkthrough
+## Building the Scene
 
 * On the ArcGISMap Component, ensure "Mesh Colliders Enabled" is checked.
 * Add the UrgentCareFull FBX from the Assets/Resources/Models folder under the ArcGISMap Game Object.
