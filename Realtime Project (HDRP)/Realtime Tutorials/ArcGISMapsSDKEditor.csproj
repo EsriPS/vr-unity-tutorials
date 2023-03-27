@@ -56,34 +56,34 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorBasemapTool.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\HPRootInspectorOverride.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISTooltipManipulator.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorAuthTool.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\EditorUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Security\ArcGISEditorOAuthAuthenticationChallengeHandler.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Utils\ArcGISProjectSettings.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorLayerTool.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorCameraTool.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Assets\MenuOptions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\HPTransformInspectorOverride.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISLocationComponentEditor.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Samples\Scripts\Readme\ArcGISReadme.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISPointEditor.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISCameraComponentEditor.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Utils\ArcGISProjectSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreator.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Utils\Environment.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Samples\Scripts\Readme\ArcGISReadmeEditor.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorElevationTool.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISMapComponentEditor.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorHelpTool.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorBasemapWidget.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\OAuthAuthenticationConfigurationMappingEditor.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorMapTool.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorBasemapTool.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Security\ArcGISEditorOAuthAuthenticationChallengeHandler.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorCameraTool.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Utils\ArcGISProjectSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorElevationTool.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorSettingsTool.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorLayerTool.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Assets\MenuOptions.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Utils\Environment.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISTooltipManipulator.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\HPTransformInspectorOverride.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISPointEditor.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISCameraComponentEditor.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Components\ArcGISMapComponentEditor.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\MapCreator\Scripts\ArcGISMapCreatorMapTool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\Editor\Resources\Templates\MapCreator\HelpToolTemplate.uxml" />
@@ -385,29 +385,17 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
@@ -415,8 +403,23 @@
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.1.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
