@@ -108,7 +108,7 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
     // This camera reference will be passed to the flights to calculate the distance from the camera to each flight
     public ArcGISCameraComponent ArcGISCamera;
 
-    public Dropdown flightSelector;
+    //public Dropdown flightSelector;
 
     // Get all the features when the script starts
     void Start()
@@ -119,10 +119,10 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
         planeData = new Dictionary<string, List<PlaneFeature>>();
         var result = Connect();
 
-        flightSelector.onValueChanged.AddListener(delegate
-        {
-            FlightSelected();
-        });
+        //flightSelector.onValueChanged.AddListener(delegate
+        //{
+        //    FlightSelected();
+        //});
     }
 
     private void LateUpdate()
@@ -279,18 +279,18 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
     }
 
     // Populates the stadium drown down with all the stadium names from the Stadiums list
-    private void PopulateFlightDropdown()
-    {
-        //Populate Stadium name drop down
-        List<string> flightNames = new List<string>();
-        foreach (GameObject flight in flights)
-        {
-            flightNames.Add(flight.name);
-        }
-        flightNames.Sort();
-        flightSelector.options.Clear();
-        flightSelector.AddOptions(flightNames);
-    }
+    //private void PopulateFlightDropdown()
+    //{
+    //    //Populate Stadium name drop down
+    //    List<string> flightNames = new List<string>();
+    //    foreach (GameObject flight in flights)
+    //    {
+    //        flightNames.Add(flight.name);
+    //    }
+    //    flightNames.Sort();
+    //    flightSelector.options.Clear();
+    //    flightSelector.AddOptions(flightNames);
+    //}
 
     private void DisplayPlaneData()
     {
@@ -310,7 +310,7 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
                     if (timespan.TotalMinutes > timeToLive)
                     {
                         flights.Remove(gobjPlane);
-                        PopulateFlightDropdown();
+                        //PopulateFlightDropdown();
                         Destroy(gobjPlane);
                         planeData.Remove(plane);
                         continue;
@@ -338,7 +338,7 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
                     GameObject clonePrefab = Instantiate(planeSymbolPrefab, this.transform);
                     clonePrefab.name = planeFeature.attributes.name;
 
-                    PopulateFlightDropdown();
+                    //PopulateFlightDropdown();
                     flights.Add(clonePrefab);
                     clonePrefab.SetActive(true);
 
@@ -382,27 +382,27 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
 #endif
 
     // When a new entry is selected in the flight dropdown move the camera to the new position
-    private void FlightSelected()
-    {
-        var flightName = flightSelector.options[flightSelector.value].text;
-        foreach (GameObject flight in flights)
-        {
-            if (flightName == flight.name)
-            {
-                var flightLocation = flight.GetComponent<ArcGISLocationComponent>();
-                if (flightLocation == null)
-                {
-                    return;
-                }
-                var CameraLocation = ArcGISCamera.GetComponent<ArcGISLocationComponent>();
-                double Longitude = flightLocation.Position.X;
-                double Latitude = flightLocation.Position.Y;
+    //private void FlightSelected()
+    //{
+    //    var flightName = flightSelector.options[flightSelector.value].text;
+    //    foreach (GameObject flight in flights)
+    //    {
+    //        if (flightName == flight.name)
+    //        {
+    //            var flightLocation = flight.GetComponent<ArcGISLocationComponent>();
+    //            if (flightLocation == null)
+    //            {
+    //                return;
+    //            }
+    //            var CameraLocation = ArcGISCamera.GetComponent<ArcGISLocationComponent>();
+    //            double Longitude = flightLocation.Position.X;
+    //            double Latitude = flightLocation.Position.Y;
 
-                ArcGISPoint NewPosition = new ArcGISPoint(Longitude, Latitude, FlightSpawnHeight, flightLocation.Position.SpatialReference);
+    //            ArcGISPoint NewPosition = new ArcGISPoint(Longitude, Latitude, FlightSpawnHeight, flightLocation.Position.SpatialReference);
 
-                CameraLocation.Position = NewPosition;
-                CameraLocation.Rotation = flightLocation.Rotation;
-            }
-        }
-    }
+    //            CameraLocation.Position = NewPosition;
+    //            CameraLocation.Rotation = flightLocation.Rotation;
+    //        }
+    //    }
+    //}
 }

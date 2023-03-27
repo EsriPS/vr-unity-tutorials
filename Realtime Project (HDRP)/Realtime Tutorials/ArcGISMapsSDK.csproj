@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_18;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_18;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;USE_HDRP_PACKAGE;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,279 +56,279 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\Base\ArcGISElevationSourceCollection.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\MapView\ArcGISCamera.Extensions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\RenderCommand.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\IRenderableProvider.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderablePivotCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISMutableArrayElementAddedEvent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadStatus.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\RenderCommandClient.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeographicTransformationStep.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPointBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Security\ArcGISAuthenticationChallengeHandler.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISMap.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryOffsetType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISViewStateChangedEvent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourceMaterial.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\quaterniond.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\IMemorySystem.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourcesProvider.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISBasemap.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\ImageComposerCS.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGISIntegratedMeshLayer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthenticationChallengeIssuedEventHandler.Extension.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\LongitudeLUTGenerator.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Environment.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMeshBufferChangeType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISViewState.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\ArcGISImageElevationSource.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMutablePart.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\MemoryQuotas.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISViewOptions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGISImageLayer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationConfigurationType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISElement.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISRuntimeEnvironmentErrorEvent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISIntermediateDataBuffer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourceMaterial.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISMutableArray.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourceMesh.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\quaterniond.Extensions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISString.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDestroyRenderableCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISVisualizationAttributeType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISCreateRenderableCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISVisualizationAttributeType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\double4.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISView.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISLayerInstanceData.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLinearUnit.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMaterialScalarPropertyCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Interop.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMaterialRenderTargetPropertyCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGIS3DObjectSceneLayer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISProximityResult.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetTexturePixelDataCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISRendererComponent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISViewSpatialReferenceChangedEvent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISImmutablePointCollection.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISTextureSemantic.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISFuture.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Math\ArcGISVector3.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISFuture.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryEngine.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeographicTransformation.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthorizationCredential.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\Base\ArcGISLayer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISUnitType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISCubicBezierSegment.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Math\ArcGISVector4.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\Base\ArcGISLayerCollection.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISMutableArrayElementRemovedEvent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\IRenderable.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\ArcGISDoubleVector4.Extensions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISMainThreadScheduler.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadableLoadStatusChangedEvent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISSegmentType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDestroyTextureCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAngularUnit.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeodesicEllipseParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAngularUnitId.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthenticationConfiguration.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMeshCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISHorizontalVerticalTransformation.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLinearUnitId.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMaterialTextureProperty.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISCreateRenderTargetCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMaterialVectorPropertyCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISProjectSettingsAsset.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISCopyCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISViewStateMessage.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISCreateTextureCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISRuntimeEnvironment.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMultipleComposeCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISLocationComponent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISImmutableArrayBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\NormalMapGeneratorCS.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISColorType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISComposedTextureElement.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMutablePointCollection.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeodesicSectorParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Unity\AtmosphereHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateFuture.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Unity\RaycastHelpers.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\GeoCoord\ArcGISRotation.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISImmutablePartCollection.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISDatumTransformationType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISSegment.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadable.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPoint.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourcesProvider.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISSpheroidData.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryBuilderType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISGameEngineType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISError.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\MapView\ArcGISCamera.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateDictionary.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationManager.Extension.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISUnit.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISVector3.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISMaterialReference.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISCameraComponent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPolylineBuilder.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISFutureStatus.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\ArcGISRenderer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGISUnsupportedLayer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISDateTime.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMultipoint.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPoint.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGARSConversionMode.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISColor.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthenticationChallenge.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPoint.Serialization.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISExtentInstanceData.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\INormalMapGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationChallengeIssuedEvent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadableDoneLoadingEvent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttributeType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPolygon.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\ImageComposerPS.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISLayerViewStatus.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISTransformationCatalog.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISEventHandler.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISNullCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISMapComponent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISViewStatus.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMaterialTexturePropertyCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\Base\ArcGISLayerType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISDataBuffer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationManager.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtentType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISDataBuffer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISEditorCameraComponent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtentRectangle.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISHorizontalVerticalTransformationStep.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryDimension.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISElement.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISEllipticArcSegment.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\NormalMapGeneratorPS.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISCollection.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISDatumTransformation.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISImmutableArray.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISLayerViewState.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISTextureFormat.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Security\ArcGISAuthenticationConfigurationInstanceData.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\GeoCoord\GeoUtils.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISMapElevation.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISElementType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISDistance.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeodeticCurveType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISMapExtentShapes.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttributeProcessorEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISDistance.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourceRenderTexture.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDataBufferView.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISSkyRepositionComponent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMutablePartCollection.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\Geometry.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISImmutablePart.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\MathUtils.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\float3.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMultipointBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISMapType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISVisualizationAttributeDescription.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGISVectorTileLayer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometry.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\double4x4.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\IRenderCommandClient.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISErrorType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\Renderable.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISFutureCompletedEvent.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISBasemapTypes.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISRenderCommandServer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\DefaultMemorySystemHandler.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\Quaternion.Extensions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISByteArrayStruct.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISBasemapStyle.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMGRSConversionMode.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMaterialVectorProperty.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISVisualizationAttribute.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISElevationSourceViewStatus.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationChallengeType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\VectorTile\ArcGISVectorTileStyle.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\MapView\ArcGISGlobeModel.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\Base\ArcGISElevationSourceType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISError.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMultipart.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\ArcGISTerrainOcclusionRenderer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateMutableArray.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthorizationCredentialIssuedEvent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMaterialScalarProperty.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISEnvelope.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationChallenge.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableVisibleCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISArrayType.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISRenderCommandType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISEnvelopeBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\ArcGISRebaseComponent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAreaUnit.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISViewStateMessageType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISElevationSourceViewState.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeodeticDistanceResult.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Environment.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\VectorTile\ArcGISVectorTileSourceInfoImmutableCollection.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISDictionary.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\AndroidDefaultMemorySystemHandler.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\RenderableProvider.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDestroyRenderTargetCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISRenderableType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISView.Extensions.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISCoordinateFormatter.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\DecodedRenderCommandQueue.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationConfiguration.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\DataBufferView.Extensions.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISErrorManager.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttributeProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLatitudeLongitudeFormat.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Math\ArcGISOrientedBoundingBox.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateImmutableArray.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\Base\ArcGISElevationSource.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourceTexture2D.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\OrientedBoundingBox.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\double3.Extensions.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateImmutableArrayBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourceMesh.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISRuntimeClient.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISElevationSourceViewStateChangedEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\Base\ArcGISElevationSourceCollection.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\MapView\ArcGISCamera.Extensions.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\RenderCommand.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\IRenderableProvider.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderablePivotCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISMutableArrayElementAddedEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeographicTransformationStep.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPointBuilder.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISMap.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryOffsetType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourceMaterial.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\IMemorySystem.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISBasemap.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMeshBufferChangeType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\ArcGISImageElevationSource.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMutablePart.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\MemoryQuotas.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISViewOptions.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationConfigurationType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISElement.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISMutableArray.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourceMesh.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISString.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDestroyRenderableCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISLayerInstanceData.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLinearUnit.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Interop.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISProximityResult.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISViewSpatialReferenceChangedEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeographicTransformation.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthorizationCredential.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISCubicBezierSegment.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Math\ArcGISVector4.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\IRenderable.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISMainThreadScheduler.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadableLoadStatusChangedEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDestroyTextureCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAngularUnit.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAngularUnitId.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISHorizontalVerticalTransformation.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLinearUnitId.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISCopyCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISRuntimeEnvironment.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMultipleComposeCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISColorType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeodesicSectorParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Unity\AtmosphereHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateFuture.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Unity\RaycastHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISSegment.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadable.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourcesProvider.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryBuilderType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateDictionary.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISVector3.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISFutureStatus.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\ArcGISRenderer.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGISUnsupportedLayer.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISDateTime.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPoint.Serialization.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationChallengeIssuedEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\ArcGISLoadableDoneLoadingEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttributeType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPolygon.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISViewStatus.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMaterialTexturePropertyCommandParameters.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\Base\ArcGISLayerType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtentType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtentRectangle.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISHorizontalVerticalTransformationStep.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISEllipticArcSegment.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\NormalMapGeneratorPS.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\GeoCoord\GeoUtils.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISMapElevation.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISElementType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISMapExtentShapes.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttributeProcessorEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDataBufferView.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMutablePartCollection.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISImmutablePart.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\MathUtils.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISVisualizationAttributeDescription.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometry.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISErrorType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\Renderable.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\Convert.ArcGISByteArrayStruct.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Map\ArcGISBasemapStyle.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMGRSConversionMode.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationChallengeType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\MapView\ArcGISGlobeModel.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\Base\ArcGISElevationSourceType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateMutableArray.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISOAuthAuthorizationCredentialIssuedEvent.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISMaterialScalarProperty.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISEnvelope.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationChallenge.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISArrayType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISRenderCommandType.cs" />
+    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAreaUnit.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISGenerateNormalTextureCommandParameters.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLineSegment.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\VectorTile\ArcGISVectorTileSourceInfo.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISDictionary.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISImmutableCollection.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Layers\ArcGISUnknownLayer.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Unity\FrustumHelpers.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPolyline.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\AndroidDefaultMemorySystemHandler.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\RenderableProvider.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISLayerViewStateChangedEvent.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISDestroyRenderTargetCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISRenderableType.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISMultipartBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\ArcGISLayerTypes.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\ArcGISView.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Memory\IMemorySystemHandler.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISSpatialReference.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISUTMConversionMode.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISCoordinateFormatter.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\DecodedRenderCommandQueue.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISDataBuffer.Extensions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Security\ArcGISAuthenticationConfiguration.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\DataBufferView.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateByteArrayStruct.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\RenderCommandThrottle.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\ArcGISErrorManager.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Attributes\ArcGISAttributeProcessor.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISLatitudeLongitudeFormat.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Math\ArcGISOrientedBoundingBox.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Components\IArcGISMapComponentInterface.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Math\ArcGISDoubleVector4.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Extent\ArcGISExtentCircle.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateImmutableArray.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\RCQ\ArcGISSetRenderableMaterialNamedTexturePropertyCommandParameters.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Elevation\Base\ArcGISElevationSource.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISGeometryExtendOptions.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\IGPUResourceTexture2D.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\Renderables\OrientedBoundingBox.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISAreaUnitId.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Utils\Math\double3.Extensions.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourceTexture2D.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISIntermediateImmutableArrayBuilder.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\Geometry\ArcGISPolygonBuilder.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourceMesh.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Standard\ArcGISRuntimeClient.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUComputing\IImageComposer.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\Unity\MonoPInvokeCallbackAttribute.cs" />
     <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Renderer\GPUResources\GPUResourceRenderTexture.cs" />
-    <Compile Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\API\GameEngine\View\State\ArcGISElevationSourceViewStateChangedEvent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.esri.arcgis-maps-sdk@d1c578d68416\SDK\Resources\Shaders\Utils\PS\BlendImage.shader" />
@@ -615,11 +615,8 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
@@ -628,16 +625,16 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -1028,6 +1025,12 @@
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
