@@ -12,6 +12,14 @@ This repository contains several Unity projects that help people understand how 
 
 ## Getting Started
 
+### Unity SDK
+
+The projects in this repository were developed using the 1.1.0 release of the Maps SDK for Unity. Follow the steps below to ensure the SDK is set up correctly.
+
+* Follow to the [Unity documentation](https://developers.arcgis.com/unity/get-started) on the ArcGIS Developers site to download the plugin.
+* Once you have the ***arcgis-maps-sdk-unity-1.1.0.tgz*** file download, ensure this lives in the ***C:\Temp*** directory on your machine.
+
+### FBX Models
 Whether you plan to explore the VR or Realtime aspect of this repository, there are a number of FBX files that need to be placed in the correct location before you launch these Unity projects for the first time.
 
 * Download all of the [FBX models](https://esriis-my.sharepoint.com/:f:/g/personal/jeff8977_esri_com/EvcKTCBgCF5Hjgr4PSjLeUMBTGd7wtKgntu3n3o2qE_WOQ?e=R1IkZR) to your machine and place them in the **/Assets/Resources/Models** directory of your project. 
