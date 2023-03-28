@@ -12,12 +12,12 @@ public class NameLabel : MonoBehaviour
 {
     public string nameLabel;
     public TMP_Text text;
-    public Slider slider;
+    //public Slider slider;
 
     private void Start()
     {
         text.text = nameLabel;
-        slider.value = 5;
+        //slider.value = 5;
     }
 
     void Update()

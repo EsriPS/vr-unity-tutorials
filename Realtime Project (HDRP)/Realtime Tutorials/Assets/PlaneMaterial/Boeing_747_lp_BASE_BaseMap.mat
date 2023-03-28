@@ -24,7 +24,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Boeing_747_lp_BASE_BaseMap
-  m_Shader: {fileID: -6465566751694194690, guid: a93d5ae669ce0c54297f795f964e4314, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 48123f842f2ca684e828ef7bf2a54998, type: 3}
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   m_InvalidKeywords:
@@ -109,7 +109,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_2dc51ca67dc64d518220f6b5fd13287a_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 7a5c5a48d9f9f17498759b2fbe855b3b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6aee1323b2d8e8c459177b18f3f0aad7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:

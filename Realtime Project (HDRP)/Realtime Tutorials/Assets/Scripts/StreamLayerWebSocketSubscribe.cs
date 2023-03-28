@@ -326,12 +326,12 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
                     rotator.Heading = planeFeature.attributes.heading;
                     locationComponent.Rotation = rotator;
 
-                    NameLabel nameLabelComponent = gobjPlane.GetComponentInChildren<NameLabel>();
-                    if (nameLabelComponent != null)
-                    {
-                        nameLabelComponent.slider.maxValue = timeToLive;
-                        nameLabelComponent.slider.value = timeToLive - (float)timespan.TotalMinutes;
-                    }
+                    //NameLabel nameLabelComponent = gobjPlane.GetComponentInChildren<NameLabel>();
+                    //if (nameLabelComponent != null)
+                    //{
+                    //    nameLabelComponent.slider.maxValue = timeToLive;
+                    //    nameLabelComponent.slider.value = timeToLive - (float)timespan.TotalMinutes;
+                    //}
                 }
                 else
                 {
@@ -352,13 +352,13 @@ public class StreamLayerWebSocketSubscribe : MonoBehaviour
                     rotator.Heading = planeFeature.attributes.heading;
                     locationComponent.Rotation = rotator;
 
-                    NameLabel nameLabelComponent = clonePrefab.GetComponentInChildren<NameLabel>();
-                    if (nameLabelComponent != null)
-                    {
-                        nameLabelComponent.nameLabel = clonePrefab.name;
-                        nameLabelComponent.slider.maxValue = timeToLive;
-                        nameLabelComponent.slider.value = timeToLive;
-                    }
+                    //NameLabel nameLabelComponent = clonePrefab.GetComponentInChildren<NameLabel>();
+                    //if (nameLabelComponent != null)
+                    //{
+                    //    nameLabelComponent.nameLabel = clonePrefab.name;
+                    //    nameLabelComponent.slider.maxValue = timeToLive;
+                    //    nameLabelComponent.slider.value = timeToLive;
+                    //}
                 }
             }
         }
