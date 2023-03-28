@@ -22,9 +22,6 @@ public class StateManager : MonoBehaviour
     [Header("Feature Service Inputs")]
     [SerializeField] private string _artServiceURL;
     [SerializeField] private GameObject _artPrefab;
-    //todo: sub this for marker prefab
-    //[SerializeField] private string _treeServiceURL;
-    //[SerializeField] private GameObject _treePrefab;
     private GameObject _fsContainer;
 
     private GameObject _agsMap;

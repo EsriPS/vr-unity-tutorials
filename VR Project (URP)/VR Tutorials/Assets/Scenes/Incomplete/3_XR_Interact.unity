@@ -154,8 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerXRO: {fileID: 1938531780}
   _rotationInput: {fileID: -2334958105076301750, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  _artServiceURL: 
-  _artPrefab: {fileID: 0}
+  _artServiceURL: https://nhgis.newhavenct.gov/server/rest/services/Points_of_Interest/Public_Art/FeatureServer/0
+  _artPrefab: {fileID: 8180703094090871080, guid: af831fd4d307d2149b2efb5f8f13d575, type: 3}
 --- !u!4 &125795032
 Transform:
   m_ObjectHideFlags: 0
