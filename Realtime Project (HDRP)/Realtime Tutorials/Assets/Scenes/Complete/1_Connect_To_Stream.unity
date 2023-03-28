@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 262.1853, g: 324.85815, b: 429.9668, a: 1}
+  m_IndirectSpecularColor: {r: 4987.578, g: 4629.0503, b: 4652.26, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -475,8 +475,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055993523}
-  m_LocalRotation: {x: -0.087172285, y: 0.8995905, z: -0.21045257, w: -0.3726226}
-  m_LocalPosition: {x: 1.0976427, y: 0.76834977, z: 1.0976428}
+  m_LocalRotation: {x: 0.10673846, y: -0.4995593, z: 0.06235376, w: 0.85741436}
+  m_LocalPosition: {x: 60.449463, y: 194.4723, z: -2986.2224}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -496,14 +496,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   position:
-    x: -72.92257189197727
-    y: 41.316316882552265
-    z: 500.7683496771293
+    x: -72.91017647350006
+    y: 41.29920725323318
+    z: 245.173424368292
     SRWkid: 4326
   rotation:
-    Heading: 225.00000869434177
-    Pitch: 63.665739307353874
-    Roll: 0.000001445840421306465
+    Heading: 299.5435764096664
+    Pitch: 75.78452299109091
+    Roll: 359.99279588897423
 --- !u!114 &1055993528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,15 +537,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_IsInitialized: 1
   m_LocalPosition:
-    x: 1408953.8796481022
-    y: 4189202.4013899346
-    z: -4586304.295297149
+    x: 1410258.2600944615
+    y: 4187606.2216668255
+    z: -4587014.864638172
   m_LocalRotation:
     value:
-      x: 0.15686664
-      y: 0.7804942
-      z: -0.5452898
-      w: -0.26245126
+      x: -0.29227528
+      y: -0.5473127
+      z: 0.22171742
+      w: 0.75224024
   m_LocalScale:
     x: 1
     y: 1
@@ -689,6 +689,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxSpeed: 2000000
   MinSpeed: 1000
+--- !u!1001 &1339408509
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003969, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713531646966003971, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
+      propertyPath: m_Name
+      value: Sky and Fog Volume
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d434d9c55a4ab72409ff8b1f32651478, type: 3}
 --- !u!1 &1762891686
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c703502c1493f5b4eb3e95b2efe0271e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: AAPKebd963d10edb4eb6bb7d0627eae36db9nAexHNpD_U5lW5xdDV4b9_A3dAUnGzjRK32CNyjE_wNHNSy6NM9atbA54heE4Y9a
+  apiKey: 
   basemap: https://www.arcgis.com/home/item.html?id=c7d2b5c334364e8fb5b73b0f4d6a779b
   basemapType: 0
   basemapAuthentication:
@@ -738,11 +795,18 @@ MonoBehaviour:
     ShapeDimensions:
       x: 0
       y: 0
-  layers: []
+  layers:
+  - Name: Buildings
+    Type: 1
+    Source: https://tiles.arcgis.com/tiles/BteRGjYsGtVEXzaX/arcgis/rest/services/NewHaven/SceneServer
+    Opacity: 1
+    IsVisible: 1
+    Authentication:
+      ConfigurationIndex: -1
   originPosition:
-    x: -72.922585
-    y: 41.316307
-    z: 500
+    x: -72.9108982
+    y: 41.3260946
+    z: 50
     SRWkid: 4326
   mapType: 0
   editorModeEnabled: 1
@@ -766,15 +830,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LocalPosition:
-    x: 1408952.873744125
-    y: 4189201.0697001424
-    z: -4586304.758719087
+    x: 1409578.0945486273
+    y: 4189720.346797834
+    z: -4585008.164183083
   m_LocalRotation:
     value:
-      x: -0.4076111
-      y: -0.13527825
-      z: -0.061199434
-      w: 0.90100366
+      x: -0.40752798
+      y: -0.13537537
+      z: -0.06122946
+      w: 0.90102464
 --- !u!4 &1762891689
 Transform:
   m_ObjectHideFlags: 0
@@ -790,5 +854,5 @@ Transform:
   - {fileID: 1055993526}
   - {fileID: 822053386}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

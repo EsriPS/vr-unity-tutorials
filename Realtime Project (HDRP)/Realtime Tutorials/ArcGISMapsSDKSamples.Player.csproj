@@ -56,18 +56,18 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\OAuthScene\OAuthScene.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\SampleOAuthAuthenticationChallengeHandler.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\SampleArcGISRaycast.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\OAuthChallengeHandlersInitializer.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Components\ArcGISCameraControllerComponentActions.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\3DAttributesSample\Sample3DAttributesComponent.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\SampleMobileOAuthAuthenticationChallengeHandler.cs" />
     <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\SampleDesktopOAuthAuthenticationChallengeHandler.cs" />
     <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\APISample\SampleAPIMapCreator.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Components\ArcGISCameraControllerComponentActions.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\AssemblyInfo.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\SampleMobileOAuthAuthenticationChallengeHandler.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\SampleArcGISRaycast.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\3DAttributesSample\Sample3DAttributesComponent.cs" />
     <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Components\ArcGISViewStateLoggingComponent.cs" />
-    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\OAuthChallengeHandlersInitializer.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\AssemblyInfo.cs" />
     <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Components\ArcGISCameraControllerComponent.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\OAuthScene\OAuthScene.cs" />
+    <Compile Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\Scripts\Security\SampleOAuthAuthenticationChallengeHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Samples\ArcGIS Maps SDK for Unity\1.1.0\All Samples\ArcGISMapsSDKSamples.asmdef" />
