@@ -2644,7 +2644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c703502c1493f5b4eb3e95b2efe0271e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: AAPKa638e405f535446d8e76c33740cff29fIHS5NgSD3k4FUeiVF0BMX-B6AF7W7j0cFZ51QSeuf88I8CtyViCuEe-O4kJN8yDE
+  apiKey: 
   basemap: https://tiles.arcgis.com/tiles/AWSPcxcHO7OnZlnu/arcgis/rest/services/New_Haven_Basemap_VectorTiled/VectorTileServer
   basemapType: 2
   basemapAuthentication:
