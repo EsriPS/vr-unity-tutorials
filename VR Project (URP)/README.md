@@ -9,7 +9,7 @@
 
 ## Oculus Quest 2
 
-This project was developed for the Oculus Quest 2. While the requirements below are not completely necessary because of the XR Device Simulator provided by the XR Interaction Toolkit, it is worth mentioning them for those who want to dive into VR developmen in more detail. 
+This project was developed for the Oculus Quest 2. While the requirements below are not completely necessary because of the XR Device Simulator provided by the XR Interaction Toolkit, it is worth mentioning them for those who want to dive into VR development in more detail. 
 
 ### Development Applications
 
