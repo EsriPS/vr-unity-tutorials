@@ -6,7 +6,7 @@
   
 ## About
 
-This repository contains several Unity projects that help people understand how to leverage the ArcGIS Maps SDKs for Game Engines within Unity. You will find a URP project showcasing our VR development work and a HDRP project showcasing Realtime work.
+This repository contains several Unity projects that help people understand how to leverage the ArcGIS Maps SDKs for Game Engines within Unity. You will find a URP project showcasing our VR development work and (coming soon!) an HDRP project showcasing Realtime work.
 
 * [Virtual Reality (URP)](https://github.com/EsriPS/xr-realtime-unity-tutorials/tree/main/VR%20Project%20(URP))
 
