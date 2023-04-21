@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "com.esri.arcgis-maps-sdk": {
-      "version": "file:C:/temp/arcgis-maps-sdk-unity-1.1.0.tgz",
+      "version": "file:C:/Users/jeff8977/Documents/MISC/UnitySDK/arcgis-maps-sdk-unity-1.2.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.unity.burst": "1.6.5",
+        "com.unity.burst": "1.6.6",
         "com.unity.mathematics": "1.2.6"
       }
     },
