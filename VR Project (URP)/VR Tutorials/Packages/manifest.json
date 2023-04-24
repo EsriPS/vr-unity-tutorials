@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.esri.arcgis-maps-sdk": "file:C:/Users/jeff8977/Documents/MISC/UnitySDK/arcgis-maps-sdk-unity-1.2.0.tgz",
+    "com.esri.arcgis-maps-sdk": "file:C:/Temp/arcgis-maps-sdk-unity-1.2.0.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.feature.development": "1.0.1",
