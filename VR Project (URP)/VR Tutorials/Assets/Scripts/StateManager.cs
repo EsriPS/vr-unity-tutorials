@@ -66,8 +66,8 @@ public class StateManager : MonoBehaviour
         FeatureService artService = new FeatureService(_artServiceURL);
         StartCoroutine(artService.RequestFeatures("OBJECTID in (21, 36, 107, 57, 126, 54, 98, 97)", CreateArtFeatures, _artPrefab));
 
-        viewpointService = new FeatureService(Minimap.Instance._viewpointServiceURL);
-        StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, Minimap.Instance.markerPrefab));
+        // viewpointService = new FeatureService(Minimap.Instance._viewpointServiceURL);
+        // StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, Minimap.Instance.markerPrefab));
     }
 
     private void Update()
