@@ -18,7 +18,6 @@ public class BSL : MonoBehaviour
         var agsMap = agsGO.GetComponent<ArcGISMapComponent>();
 
         _bsl = (ArcGISBuildingSceneLayer)agsMap.View.Map.Layers.At(0);
-        Debug.Log($"Target BSL: {_bsl.Name}");
 
         _bsl.DoneLoading += ToggleLayers;         
     }
@@ -27,6 +26,7 @@ public class BSL : MonoBehaviour
     {
         var size = _bsl.Sublayers.GetSize();
 
+        Debug.Log($"Target BSL: {_bsl.Name}");
         Debug.Log($"Done Loading Size: {size}");
 
         for (ulong i = 0; i < size; i++) {
@@ -35,7 +35,19 @@ public class BSL : MonoBehaviour
 
             sublayer.IsVisible = true;
 
-            Debug.Log($"{sublayer.Name} - {sublayer.Sublayers.GetSize()}");
+            if (!sublayer.Name.Contains("Overview")){
+                Debug.Log($"{sublayer.Name} - {sublayer.Sublayers.GetSize()}");
+                for (ulong j = 0; j < sublayer.Sublayers.GetSize(); j++)
+                {
+
+                    var subsublayer = sublayer.Sublayers.At(j);
+
+                    subsublayer.IsVisible = true;
+
+                    Debug.Log($"{j} - {sublayer.Sublayers.At(j).Name}");
+
+                }
+            }
         }  
     }
 }
