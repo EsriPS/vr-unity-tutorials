@@ -1,14 +1,12 @@
 <div align="center">
   <a href="#">
-    <img src="./documentation/github-banner.png" alt="Project Title" title="Project Title" />
+    <img src="./documentation/github-banner.png" alt="Virtual Reality Development Tutorials" title="Virtual Reality Development Tutorials" />
   </a>
 </div>
   
 ## About
 
-This repository contains several Unity projects that help people understand how to leverage the ArcGIS Maps SDKs for Game Engines within Unity. You will find a URP project showcasing our VR development work and (coming soon!) an HDRP project showcasing Realtime work.
-
-* [Virtual Reality (URP)](https://github.com/EsriPS/xr-realtime-unity-tutorials/tree/main/VR%20Project%20(URP))
+This repository is structured to help people understand how to leverage the ArcGIS Maps SDKs for Game Engines within Unity for Virtual Reality applications. You will find a URP project showcasing our VR development work.
 
 ## Getting Started
 
@@ -20,12 +18,11 @@ The projects in this repository were developed using the 1.1.0 release of the Ma
 * Once you have the ***arcgis-maps-sdk-unity-1.1.0.tgz*** file downloaded, ensure this is placed in the ***C:\Temp*** directory on your machine and also keep the API Key handy because it will used to configure the plugin.
 
 ### FBX Models
-Whether you plan to explore the VR or Realtime aspect of this repository, there are a number of FBX files that need to be placed in the correct location before you launch these Unity projects for the first time.
+To explore the VR project, there are a number of FBX files that need to be placed in the correct location before it is launched for the first time.
 
 * Download all of the [FBX models](https://esriis-my.sharepoint.com/:f:/g/personal/jeff8977_esri_com/EvcKTCBgCF5Hjgr4PSjLeUMBTGd7wtKgntu3n3o2qE_WOQ?e=R1IkZR) to your machine and place them in the **/Assets/Resources/Models** directory of your project. 
 * Open Unity Hub and start your Unity project as you would normally.
-  * If you are opening the VR content, the project starts in the VR Tutorials directory under VR Project (URP).
-* Each project will have a Walkthroughs folder with content to help you understand how each Scene was built. Please review these documents and let us know if you find any issues.
+* The project also features a Walkthroughs folder with content to help you understand how each Scene was built. Please review these documents and let us know if you find any issues.
 
 ## Requirements
 
