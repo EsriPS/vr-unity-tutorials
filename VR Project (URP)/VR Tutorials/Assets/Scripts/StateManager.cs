@@ -22,9 +22,6 @@ public class StateManager : MonoBehaviour
     [Header("Feature Service Inputs")]
     [SerializeField] private string _artServiceURL;
     [SerializeField] private GameObject _artPrefab;
-    //todo: sub this for marker prefab
-    //[SerializeField] private string _treeServiceURL;
-    //[SerializeField] private GameObject _treePrefab;
     private GameObject _fsContainer;
 
     private GameObject _agsMap;
@@ -71,8 +68,6 @@ public class StateManager : MonoBehaviour
 
         viewpointService = new FeatureService(Minimap.Instance._viewpointServiceURL);
         StartCoroutine(viewpointService.RequestFeatures("1=1", CreateViewpointFeatures, Minimap.Instance.markerPrefab));
-
-
     }
 
     private void Update()
@@ -107,8 +102,9 @@ public class StateManager : MonoBehaviour
     public void HandleGrabEnter(SelectEnterEventArgs args)
     {
         _grabTarget = args.interactableObject.transform.gameObject;
-        _cTurnProvider.enabled = false;
         _grabbing = true;
+
+        _cTurnProvider.rightHandTurnAction.reference.action.Disable();
 
         if (_rayInteractor.TryGetCurrent3DRaycastHit(out RaycastHit hit))
         {
@@ -119,8 +115,9 @@ public class StateManager : MonoBehaviour
 
     public void HandleGrabExit(SelectExitEventArgs args)
     {
-        _cTurnProvider.enabled = true;
         _grabbing = false;
+
+        _cTurnProvider.rightHandTurnAction.reference.action.Enable();
 
         var rb = args.interactableObject.transform.gameObject.GetComponent<Rigidbody>();
         rb.isKinematic = false;
